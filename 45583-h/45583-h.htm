@@ -1,0 +1,3024 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>
+      The Project Gutenberg eBook of Scapa and a Camera, by C. W. Burrows.
+    </title>
+    <link rel="coverpage" href="images/front_cover.jpg" />
+    <style type="text/css">
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+/* custom */
+h3 {font-size: 110%; font-weight: normal; margin-top: 2em;}
+
+.vlargec{ text-align: center; text-indent: 0em; font-weight: bold;  font-size: 180%; margin: .67em auto; }
+.largec { text-align: center; text-indent: 0em; font-weight: bold;  font-size: 130%; margin: .67em auto; }
+.smallc { text-align: center; text-indent: 0em; font-weight: bold;  font-size: 75%; margin: .67em auto; }
+.vsmallc {text-align: center; text-indent: 0em; font-weight: normal;  font-size: 50%; margin: .67em auto;}
+.normalcb {text-align: center; text-indent: 0em; font-weight: bold;  font-size: 100%; margin: .67em auto;}
+
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+/* custom */
+p.drop-cap {
+  text-indent: 0em;
+}
+
+p.drop-cap:first-letter
+{
+  float: left;
+  margin: 0.1em 0.1em 0 0;
+  font-style: italic;
+  font-size: 150%;
+}
+
+@media handheld
+{
+  p.drop-cap:first-letter
+  {
+    float: none;
+    margin: 0;
+    font-size: 150%;
+  }
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+
+table {	/* these affect all table elements */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;        /* space above the table */
+    caption-side: top;      /* top; or  bottom ; */
+    empty-cells: show;      /* no need for nbsp's in empty cells */
+}
+
+td, td > p {	/* style all text inside body cells */
+	margin-top: 0.25em;	/* compact vertical.. */
+	line-height: 1.1em;	/* ..spacing */
+	font-size: 90%;		/* smaller than book body text */
+}
+
+thead td, tfoot td {	/* header-footer cells: center  bold */
+	text-align: center;
+	font-weight: bold;
+	/* background-color: #ddd;  optional: gray background */
+}
+
+/* custom */
+table.ships {border-collapse:collapse; margin-top: 1em; margin-bottom: 2em;}
+
+td.tocti {text-align: left; padding-left:1em;}
+td.tocpg {text-align:right; vertical-align:top;}
+td.tpl      {text-align: left; padding-left: 1em;}
+td.tpr      {text-align: left; padding-right: 1em;}
+td.tdr      {text-align:right;}
+
+    .tdr      {text-align: right;}
+    .tdc      {text-align: center;}
+
+
+th.light {font-weight: normal;}
+tr.trsm { font-variant: small-caps;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: smaller;
+    text-align: right;
+} /* page numbers */
+
+.blockquot {
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: smaller;
+/*    font-style: italic; */
+}
+
+
+.bb       {border-bottom: solid 1px;}
+
+.bt       {border-top: solid 1px;}
+
+.br       {border-right: solid 1px;}
+
+.center   {text-align: center;}
+
+.right   {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.small {font-size: 80%;}
+.vsmall {font-size: 50%;}
+.spaced {letter-spacing: 0.2em;  margin-right: -0.2em;}
+
+.caption  {font-weight: bold; font-size: 90%;}
+.captionr  {font-weight: normal; text-align: right; font-size: 75%;}
+
+/* custom Images */
+img {
+    max-width: 100%; /* no image to be wider than screen or containing div */
+    height:auto;     /* keep height in proportion to width */
+}
+
+.figcenter {
+    clear: both;
+    margin: 2em auto;
+    text-align: center;
+    max-width: 100%; /* div no wider than screen, even when screen is narrow  */
+}
+
+/* floats get no more than 40% of width, so even a left and
+   a right simultaneously leave room for some text between them  - maybe not */
+.figleft {
+    float: left;
+    clear: left;
+    margin: 1em 1em 1em 0em;
+    text-align: center;
+    max-width: 47%;
+}
+
+.figright {
+    float: right;
+    clear: right;
+    margin: 1em 0em 1em 1em;
+    text-align: center;
+    max-width: 47%;
+}
+
+/* handheld device has limited width, so center images instead of floating */
+@media handheld {
+  .figleft, .figright {
+      float: none;
+      clear: both;
+      margin: 2em auto;
+      max-width: 100%;
+  }
+}
+
+.poem-container {
+    text-align: center;
+}
+
+.poem {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0;
+    font-size: 90%;
+}
+
+.poem .stanza{
+    padding: 0.5em 0;
+}
+
+.poem span.i0     {display: block; margin-left: 0em; padding-left: 3em; text-indent: -3em;}
+.poem span.i2     {display: block; margin-left: 1em; padding-left: 3em; text-indent: -3em;}
+.poem span.i4     {display: block; margin-left: 2em; padding-left: 3em; text-indent: -3em;}
+.poem span.i6     {display: block; margin-left: 3em; padding-left: 3em; text-indent: -3em;}
+
+@media handheld {
+    .poem-container {text-align: left; margin-left: 5%;}
+    .poem {display: block;}
+    .poem .tb {text-align: left; padding-left: 2em;}
+}
+
+/* Illustrated dop-caps */
+@media screen, print
+{
+  img.drop-cap
+  {
+    float: left;
+    margin: 0 0.5em 0 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  p.drop-cap {
+    text-indent: 0em;
+  }
+
+  p.drop-cap:first-letter {
+    padding-right: .2em;
+    margin-left: -1.5em;
+  }
+}
+
+@media handheld
+{
+  img.drop-cap {
+    display: none;
+    visibility: hidden;
+  }
+
+  p.drop-cap:first-letter {
+    padding-right: 0em;
+    margin-left: 0em;
+  }
+}
+
+@media screen, print{
+ screen-no-see { visibility: hidden; }
+}
+
+@media handheld{
+ handheld-no-see { visibility: hidden; }
+}
+
+
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+     font-size:smaller;
+     padding:0.5em;
+     margin-bottom:5em;
+     font-family:sans-serif, serif; }
+
+    </style>
+  </head>
+<body>
+
+<hr class="chap" />
+
+
+
+
+<h1 class="p4">SCAPA AND A CAMERA</h1>
+
+<hr class="chap p6" />
+
+
+
+
+<div class="figcenter p6" style="width: 95px;">
+<img src="images/i_002.jpg" width="95" height="152" alt="COUNTRY LIFE" />
+</div>
+
+<p class="center"><i>First published in 1921.</i>
+</p>
+<hr class="chap p6" />
+
+
+<div class="figcenter" style="width: 459px;">
+<img src="images/i_004.jpg" width="459" height="600" alt="" />
+<div class="caption"><span class="smcap">"The Sure Shield of Britain and of her Empire."</span><br />
+<span class="smallc">(<i>Extract from His Majesty the King's message to his Navy at the outbreak of war.</i>)</span></div>
+</div>
+
+
+<hr class="chap" />
+
+
+<p class="vlargec">SCAPA<br />
+<span class="small">AND A CAMERA</span></p>
+
+<p class="center p2">PICTORIAL IMPRESSIONS OF FIVE YEARS SPENT<br />
+AT THE GRAND FLEET BASE.</p>
+
+<p class="smallc p4">BY<br />
+<span class="vlargec">C. W. BURROWS</span></p>
+
+<p class="center p4 smallc">WITH AN INTRODUCTION BY<br />
+<span class="vlargec">VICE-ADMIRAL F. S. MILLER, C.B.</span><br />
+<span class="small">REAR-ADMIRAL SCAPA FLOW, 1914-1916</span></p>
+
+<p class="center p6 small spaced">LONDON</p>
+
+<p class="center small">PUBLISHED AT THE OFFICES OF COUNTRY LIFE, LTD.,<br />
+20, TAVISTOCK STREET, COVENT GARDEN, W.C. 2, AND BY<br />
+GEORGE NEWNES, LTD., 8-11, SOUTHAMPTON STREET, STRAND, W.C. 2<br />
+NEW YORK: CHARLES SCRIBNER'S SONS<br />
+<span class="spaced">MCMXXI</span></p>
+
+<hr class="chap" />
+
+
+
+<p class="smallc p6">DEDICATED (BY PERMISSION)</p>
+
+<p class="vsmallc">TO</p>
+
+<p class="normalcb">ADMIRAL OF THE FLEET EARL BEATTY, O.M., G.C.B.,</p>
+
+<p class="vsmallc">AND THE</p>
+
+<p class="smallc">OFFICERS AND MEN OF THE GRAND FLEET<br />
+AND AUXILIARIES
+</p>
+
+<hr class="chap p6" />
+
+<p><span class="pagenum"><a name="Page_ix" id="Page_ix">[ix]</a></span></p>
+
+
+<h2><a name="PREFACE" id="PREFACE"></a>PREFACE</h2>
+
+<div>
+  <img class="drop-cap" src="images/i_009.png" width="73" height="79" alt="T" />
+</div>
+
+<p class="drop-cap"><span class="smcap">The</span> Author desires to express his indebtedness to the
+undermentioned, who, by the loan of photographs or
+in other ways, have assisted in the production of this
+book:</p>
+
+<div class="blockquot">
+<span class="smcap">The Photographic Bureau</span>, Imperial War Museum.<br />
+<span class="smcap">O. Baird</span>, Esq., Admiralty.<br />
+<span class="smcap">P. Goodyear</span>, Esq., Senior Constructor, Admiralty.<br />
+Lieut.-Commander <span class="smcap">N. A. K. Money</span>, R.N., O.B.E., Admiralty.<br />
+Paymaster-Lieut. <span class="smcap">Humphrey Joel</span>, R.N.R., H.M.S. "Excellent."<br />
+<span class="smcap">T. Kent</span>, Esq., Kirkwall.<br />
+<span class="smcap">A. H. Dominey</span>, Esq., late Junior Army and Navy Stores, Ltd.,
+S.S. "Borodino."<br />
+<span class="smcap">Jas. Mackintosh</span>, Esq., Kirkwall.</div>
+
+<div class="poem"><div class="stanza">
+<span class="i0 smcap">Guibal House,</span>
+<span class="i2"><span class="smcap">Lee</span>, S.E. 12,</span>
+<span class="i4"><i>March, 1921.</i></span>
+</div></div>
+
+<hr class="chap" />
+<p><span class="pagenum"><a name="Page_xi" id="Page_xi">[xi]</a></span></p>
+
+<h2><a name="INTRODUCTION" id="INTRODUCTION"></a>INTRODUCTION</h2>
+
+
+<div>
+  <img class="drop-cap" src="images/i_011.png" width="74" height="82" alt="I" />
+</div>
+
+<p class="drop-cap"><span class="smcap">It</span> was my privilege to be in administrative charge of the Naval
+Base at Scapa from August, 1914, to May, 1916, until relieved by
+Rear-Admiral Prendergast.</p>
+
+<p>The Author, Mr. C. W. Burrows, assumed duty as Cashier of
+the Dockyard Section at the Base in May, 1915, and was so
+employed until March, 1920, and thus had a long and intimate knowledge of
+local doings and surroundings.</p>
+
+<p>He has compiled a unique and profusely illustrated book, which should
+prove of surpassing interest, not only to those who only know of Scapa by hearsay,
+but particularly to the thousands of officers and men of the Naval, Marine, and
+Civil Services of the Crown, the Mercantile Marine, and others who were employed
+in and near Scapa Flow. To the latter it will serve as a remembrance of the
+incidents, many joyous and some sad and tragic, associated with their sojourn
+in the northern mists which shrouded Scapa from the public eye. Part IV.,
+dealing with the German ships at Scapa Flow, their dramatic sinking on 21st June,
+1919, and the subsequent salvage operations of several of them, is an exceptionally
+fine pictorial record.</p>
+
+<p>Owing to the lack of facilities, practically the whole of the Base Establishment
+had to be accommodated afloat, and until the arrival of H.M.S. "Victorious" in
+March, 1916, as accommodation ship and workshop for the Dockyard Staff and
+workmen, the officers and men experienced considerable discomfort. The men
+usually found quarters on board the ships upon which they were working, and,
+owing to the shortness of notice, they were frequently taken to sea.</p>
+
+<p>A very marked feature throughout the war was the spirit of loyalty, good
+comradeship, and emulation which evinced itself among all ranks, ratings, and<span class="pagenum"><a name="Page_xii" id="Page_xii">[xii]</a></span>
+grades, whether on duty or in recreations. It was this spirit that lightened the
+discomforts and difficulties which necessarily occurred, maintained the Grand
+Fleet and Base in a healthy state of efficiency, and brought about the breakdown
+of the German morale, resulting in the ignominious surrender of the German
+ships in November, 1918, and their ultimate transfer to Scapa Flow.</p>
+
+<p>The Author is to be congratulated in providing such a delightful souvenir
+of the Great War.</p>
+
+<p class="right">   F. S. MILLER.</p>
+
+<div class="poem"><div class="stanza">
+<span class="i0 smcap">Long Hope,</span>
+<span class="i2 smcap">Shortheath,</span>
+<span class="i4 smcap">Farnham,</span>
+<span class="i6 smcap">Surrey.</span>
+</div></div>
+
+<hr class="chap" />
+
+<p class="pagenum"><a name="Page_xiii" id="Page_xiii">[xiii]</a></p>
+
+
+<h2><a name="CONTENTS" id="CONTENTS"></a>CONTENTS</h2>
+
+<div class="center">
+<table summary="TOC">
+<tr><th colspan="2">PART I</th></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">PAGE</td></tr>
+<tr class="trsm"><td class="tocti">THE DEVELOPMENT OF THE BASE</td><td class="tocpg"><a href="#Page_1">1</a></td></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr><th colspan="2">PART II</th></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr class="trsm"><td class="tocti">SCENES AROUND SCAPA FLOW</td><td class="tocpg"><a href="#Page_29">29</a></td></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr><th colspan="2">PART III</th></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr class="trsm"><td class="tocti">THE NAVY AT SCAPA FLOW</td><td class="tocpg"><a href="#Page_59">59</a></td></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr><th colspan="2">PART IV</th></tr>
+<tr><td>&nbsp;</td><td class="tdr vsmall">&nbsp;</td></tr>
+<tr class="trsm"><td class="tocti">THE GERMAN SHIPS AT SCAPA FLOW</td><td class="tocpg"><a href="#Page_97">97</a></td></tr>
+</table></div>
+
+<hr class="chap" />
+<p class="pagenum"><a name="Page_xv" id="Page_xv">[xv]</a></p>
+
+
+<h2><a name="ILLUSTRATIONS" id="ILLUSTRATIONS"></a>ILLUSTRATIONS</h2>
+
+<div class="center">
+<table  summary="Illustrations">
+<tr><td class="tocti smcap">"The Sure Shield of Britain and of her Empire"</td><td class="tocpg"> <i>Frontispiece</i></td></tr>
+<tr class="trsm"><td class="tocti">&nbsp;</td><td class="tocpg small">PAGE</td></tr>
+<tr><td class="tocti smcap">Map of Scapa Flow and the Orkney Islands</td><td class="tocpg"><i>To face </i><a href="#SCAPAMAP">xx</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Cyclops" at Long Hope</td><td class="tocpg"><a href="#Page_1">1</a></td></tr>
+<tr class="trsm"><td class="tocti">St. John's Head, Hoy</td><td class="tocpg"><a href="#HOY">5</a></td></tr>
+<tr class="trsm"><td class="tocti">Drifter Net-Boom Defence at Houton</td><td class="tocpg"><a href="#HOUTON">7</a></td></tr>
+<tr class="trsm"><td class="tocti">Sunken Ships between St. Margaret's Hope and Burray</td><td class="tocpg"><a href="#SUNKENSHIPS">7</a></td></tr>
+<tr class="trsm"><td class="tocti">The Grand Fleet Base at Long Hope, 1916, looking towards Weddel Sound</td><td class="tocpg"><a href="#GRANDFLEET">9</a></td></tr>
+<tr class="trsm"><td class="tocti">Closer View of the Base Ships at Long Hope</td><td class="tocpg"><a href="#CLOSERVIEW">9</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Imperieuse" at Long Hope</td><td class="tocpg"><a href="#IMPERIEUSE">11</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Victorious" at Scapa Flow</td><td class="tocpg"><a href="#VICTORIOUS">12</a></td></tr>
+<tr class="trsm"><td class="tocti">R.F.A. "Ruthenia"</td><td class="tocpg"><a href="#RUTHENIA">13</a></td></tr>
+<tr class="trsm"><td class="tocti">Torpedo Sub-Dep&ocirc;t Ship "Sokoto" lying in the Inner Hope</td><td class="tocpg"><a href="#SOKOTO">14</a></td></tr>
+<tr class="trsm"><td class="tocti">The Brough of Birsay, off which H.M.S. "Hampshire" was lost on 6th June, 1916</td><td class="tocpg"><a href="#BROUGHBIRSAY">14</a></td></tr>
+<tr class="trsm"><td class="tocti">Driving off from the First Hole on Flotta</td><td class="tocpg"><a href="#DRIVING">15</a></td></tr>
+<tr class="trsm"><td class="tocti">Children's Race at Long Hope Sports</td><td class="tocpg"><a href="#CHILDRENSRACE">16</a></td></tr>
+<tr class="trsm"><td class="tocti">Watching the Sports</td><td class="tocpg"><a href="#SPORTS">16</a></td></tr>
+<tr class="trsm"><td class="tocti">A Boxing Match on Flotta</td><td class="tocpg"><a href="#BOXING">17</a></td></tr>
+<tr class="trsm"><td class="tocti">A Ship's Garden at Crockness</td><td class="tocpg"><a href="#GARDEN">18</a></td></tr>
+<tr class="trsm"><td class="tocti">U.S.S. "New York" leading the 6th Battle Squadron into Scapa after crossing the Atlantic</td><td class="tocpg"><a href="#NEWYORK">19</a></td></tr>
+<tr class="trsm"><td class="tocti">Harvest Festival</td><td class="tocpg"><a href="#HARVEST">20</a></td></tr>
+<tr class="trsm"><td class="tocti">The "Green Room" of a Battleship; Officers making up for a Show</td><td class="tocpg"><a href="#GREENROOM">21</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battleship "Kaiser" entering the Boom at Scapa Flow for Internment at Dawn on 26th November, 1918</td><td class="tocpg"><a href="#KAISER">23</a></td></tr>
+<tr class="trsm"><td class="tocti">The German Ships interned at Scapa</td><td class="tocpg"><a href="#GERMANSHIPS">23</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Derfflinger" Four Minutes before finally Sinking, 2.45 p.m., 21st June, 1919</td><td class="tocpg"><a href="#DERFLINGER">24</a></td></tr>
+<tr class="trsm"><td class="tocti"><span class="pagenum"><a name="Page_xvi" id="Page_xvi">[xvi]</a></span>Vice-Admiral Sir R. J. Prendergast making his Farewell Address on H.M.S. "Victorious," 15th February, 1920</td><td class="tocpg"><a href="#VICEADMIRAL">25</a></td></tr>
+<tr class="trsm"><td class="tocti">Good-bye to Scapa!</td><td class="tocpg"><a href="#GOODBYE">26</a></td></tr>
+<tr class="trsm"><td class="tocti">View looking South from Houton Bay</td><td class="tocpg"><a href="#VIEWSOUTH">29</a></td></tr>
+<tr class="trsm"><td class="tocti">Wideford Hill and the "Peerie Sea"</td><td class="tocpg"><a href="#WIDEFORD">32</a></td></tr>
+<tr class="trsm"><td class="tocti">Loading Stores at Scapa Pier</td><td class="tocpg"><a href="#STORES">32</a></td></tr>
+<tr class="trsm"><td class="tocti">Kirkwall Harbour from the Cathedral Tower </td><td class="tocpg"><a href="#KIRKWALLHARBOUR">33</a></td></tr>
+<tr class="trsm"><td class="tocti">Albert Street, Kirkwall</td><td class="tocpg"><a href="#ALBERTST">34</a></td></tr>
+<tr class="trsm"><td class="tocti">St. Magnus Cathedral from the Earl's Palace </td><td class="tocpg"><a href="#STMAGNUS">35</a></td></tr>
+<tr class="trsm"><td class="tocti">Old Houses in Kirkwall </td><td class="tocpg"><a href="#OLDHOUSES">36</a></td></tr>
+<tr class="trsm"><td class="tocti">Stromness from the Sea</td><td class="tocpg"><a href="#STROMNESS">37</a></td></tr>
+<tr class="trsm"><td class="tocti">Houton Bay Air Station</td><td class="tocpg"><a href="#HOUTANBAS">38</a></td></tr>
+<tr class="trsm"><td class="tocti">The Clestron Barrier, Stromness</td><td class="tocpg"><a href="#CLESTRON">39</a></td></tr>
+<tr class="trsm"><td class="tocti">The Standing Stones of Stennis</td><td class="tocpg"><a href="#STENNIS">40</a></td></tr>
+<tr class="trsm"><td class="tocti">The Ring of Brodgar</td><td class="tocpg"><a href="#BRODGAR">40</a></td></tr>
+<tr class="trsm"><td class="tocti">The Tumulus of Maeshowe</td><td class="tocpg"><a href="#MAESHOWE">41</a></td></tr>
+<tr class="trsm"><td class="tocti">The Entrance to Maeshowe</td><td class="tocpg"><a href="#MAESHOWE2">41</a></td></tr>
+<tr class="trsm"><td class="tocti">A Winding Road in Hoy</td><td class="tocpg"><a href="#HOYRD">42</a></td></tr>
+<tr class="trsm"><td class="tocti">Ward Hill and Graemsay Island from the Sea</td><td class="tocpg"><a href="#WARDHILL">43</a></td></tr>
+<tr class="trsm"><td class="tocti">Ward Hill&mdash;the Road to Rackwick</td><td class="tocpg"><a href="#WARDHILL2">44</a></td></tr>
+<tr class="trsm"><td class="tocti">Ward Hill from the East</td><td class="tocpg"><a href="#WARDHILL3">44</a></td></tr>
+<tr class="trsm"><td class="tocti">The Old Man of Hoy</td><td class="tocpg"><a href="#OMHOY">45</a></td></tr>
+<tr class="trsm"><td class="tocti">The Dwarfie Stone</td><td class="tocpg"><a href="#DWARFIE">46</a></td></tr>
+<tr class="trsm"><td class="tocti">The New Stone Wall and Pier, Lyness</td><td class="tocpg"><a href="#NEWSTONEWALL">47</a></td></tr>
+<tr class="trsm"><td class="tocti">Crofts near Lyness</td><td class="tocpg"><a href="#CROFTS">47</a></td></tr>
+<tr class="trsm"><td class="tocti">Excavations at Lyness in Connection with the Building of the Wharf</td><td class="tocpg"><a href="#EXCAVATIONS">48</a></td></tr>
+<tr class="trsm"><td class="tocti">The First Train in Orkney</td><td class="tocpg"><a href="#TRAIN">48</a></td></tr>
+<tr class="trsm"><td class="tocti">Sunset over the Martello Tower, Crockness</td><td class="tocpg"><a href="#SUNSET">49</a></td></tr>
+<tr class="trsm"><td class="tocti">The Martello Tower, Crockness</td><td class="tocpg"><a href="#MARTELLO">49</a></td></tr>
+<tr class="trsm"><td class="tocti">View looking through the Martello Tower, Crockness, towards Long Hope</td><td class="tocpg"><a href="#MARTELLO2">50</a></td></tr>
+<tr class="trsm"><td class="tocti">Melsetter&mdash;on the Road from Lyness to Long Hope</td><td class="tocpg"><a href="#MELSETTER">51</a></td></tr>
+<tr class="trsm"><td class="tocti">Long Hope Pier and Post Office</td><td class="tocpg"><a href="#LONGHOPE">52</a></td></tr>
+<tr class="trsm"><td class="tocti">Long Hope Hotel</td><td class="tocpg"><a href="#LONGHOPE2">52</a></td></tr>
+<tr class="trsm"><td class="tocti">Kirk Hope, South Walls</td><td class="tocpg"><a href="#KIRKHOPE">53</a></td></tr>
+<tr class="trsm"><td class="tocti">Cantick Lighthouse, South Walls</td><td class="tocpg"><a href="#CANTICK">53</a></td></tr>
+<tr class="trsm"><td class="tocti"><span class="pagenum"><a name="Page_xvii" id="Page_xvii">[xvii]</a></span>Digging the Peats&mdash;Hoy</td><td class="tocpg"><a href="#DIGGING">54</a></td></tr>
+<tr class="trsm"><td class="tocti">Carting Home the Peats</td><td class="tocpg"><a href="#CARTING">54</a></td></tr>
+<tr class="trsm"><td class="tocti">Horse and Ox Harrowing</td><td class="tocpg"><a href="#HORSE">55</a></td></tr>
+<tr class="trsm"><td class="tocti">Loading Sea-Weed for Manure</td><td class="tocpg"><a href="#LOADING">55</a></td></tr>
+<tr class="trsm"><td class="tocti">An Orkney Cart</td><td class="tocpg"><a href="#ORKNEYCART">55</a></td></tr>
+<tr class="trsm"><td class="tocti">Making Straw-backed Chairs, Orkney</td><td class="tocpg"><a href="#STRAWCHAIRS">56</a></td></tr>
+<tr class="trsm"><td class="tocti">Interior of an Orkney Cottage</td><td class="tocpg"><a href="#INTERIOR">57</a></td></tr>
+<tr class="trsm"><td class="tocti">Spinning</td><td class="tocpg"><a href="#SPINNING">58</a></td></tr>
+<tr class="trsm"><td class="tocti">Battle Squadron exercising in the Flow</td><td class="tocpg"><a href="#BATTLESQUADRON">59</a></td></tr>
+<tr class="trsm"><td class="tocti">Admiral of the Fleet Earl Beatty on the Quarterdeck of H.M.S. "Queen Elizabeth"</td><td class="tocpg"><a href="#ADMIRALBEATTY">62</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Queen Elizabeth"</td><td class="tocpg"><a href="#QE">63</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Revenge" and Ships of the First Battle Squadron at Scapa</td><td class="tocpg"><a href="#REVENGE">64</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Ramillies"</td><td class="tocpg"><a href="#RAMILIES">64</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Resolution"</td><td class="tocpg"><a href="#RESOLUTION">64</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Royal Oak"</td><td class="tocpg"><a href="#ROYALOAK">64</a></td></tr>
+<tr class="trsm"><td class="tocti">Fourth Battle Squadron exercising in the Flow</td><td class="tocpg"><a href="#FOURTHSQUADRON">65</a></td></tr>
+<tr class="trsm"><td class="tocti">Battleships "Orion," "Monarch," and "Conqueror" in the Flow</td><td class="tocpg"><a href="#ORION">66</a></td></tr>
+<tr class="trsm"><td class="tocti">Battleships "Colossus," "St. Vincent," and "Bellerophon" exercising in the Flow</td><td class="tocpg"><a href="#COLOSSUS">66</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Renown"</td><td class="tocpg"><a href="#RENOWN">67</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Tiger": A Famous Ship of the Battle Cruiser Squadron</td><td class="tocpg"><a href="#TIGER">67</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Emperor of India"</td><td class="tocpg"><a href="#EMPERORINDIA">68</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Whitshed"</td><td class="tocpg"><a href="#WHITESHED">68</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Barham"</td><td class="tocpg"><a href="#BARHAM">68</a></td></tr>
+<tr class="trsm"><td class="tocti">Light Cruiser "Calliope" at Scapa</td><td class="tocpg"><a href="#CALLIOPE">69</a></td></tr>
+<tr class="trsm"><td class="tocti">"Make and Mend" on Light Cruiser "Yarmouth"</td><td class="tocpg"><a href="#YARMOUTH">69</a></td></tr>
+<tr class="trsm"><td class="tocti">The Deck of an Aeroplane Carrier, H.M.S. "Furious"</td><td class="tocpg"><a href="#FURIOUS">70</a></td></tr>
+<tr class="trsm"><td class="tocti">Submarine "G 13" alongside H.M.S. "Queen Elizabeth"</td><td class="tocpg"><a href="#G13">71</a></td></tr>
+<tr class="trsm"><td class="tocti">Submarine "K 16" under Way in the Flow</td><td class="tocpg"><a href="#K16">71</a></td></tr>
+<tr class="trsm"><td class="tocti">Officers of Submarine "K 7" in the Conning Tower</td><td class="tocpg"><a href="#K7">71</a></td></tr>
+<tr class="trsm"><td class="tocti">Marines Drilling on the Quarterdeck of a Battleship</td><td class="tocpg"><a href="#MARINES">72</a></td></tr>
+<tr class="trsm"><td class="tocti">General View of Captain's Sunday Morning Inspection</td><td class="tocpg"><a href="#SUNDAYINSPECTION">73</a></td></tr>
+<tr class="trsm"><td class="tocti">"Tidying Up" for Inspection</td><td class="tocpg"><a href="#TIDYING">74</a></td></tr>
+<tr class="trsm"><td class="tocti">Officers and Men exercising on the Quarterdeck</td><td class="tocpg"><a href="#EXERCISING2">75</a></td></tr>
+<tr class="trsm"><td class="tocti">"Holystoning"</td><td class="tocpg"><a href="#HOLYSTONING">76</a></td></tr>
+<tr class="trsm"><td class="tocti"><span class="pagenum"><a name="Page_xviii" id="Page_xviii">[xviii]</a></span>Washing Down Decks</td><td class="tocpg"><a href="#WASHINGDOWN">77</a></td></tr>
+<tr class="trsm"><td class="tocti">Stokers at Work </td><td class="tocpg"><a href="#STOKERS">78</a></td></tr>
+<tr class="trsm"><td class="tocti">Church Service on H.M.S. "Queen Elizabeth" </td><td class="tocpg"><a href="#CHURCH">79</a></td></tr>
+<tr class="trsm"><td class="tocti">Hospital Ships at Scapa Flow</td><td class="tocpg"><a href="#HOSPITAL">80</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M. Hospital Ship "Magic II.," afterwards renamed "Classic"</td><td class="tocpg"><a href="#MAGIC">80</a></td></tr>
+<tr class="trsm"><td class="tocti">Transferring a "Cot Case" from a Battleship to the Hospital Ship Drifter</td><td class="tocpg"><a href="#COTCASE">81</a></td></tr>
+<tr class="trsm"><td class="tocti">Dentist at Work on a Battleship (H.M.S. "Collingwood")</td><td class="tocpg"><a href="#DENTIST">82</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Imperieuse" with Fleet Mail Steamer "St. Ninian" and Mail Drifters from the Fleet alongside</td><td class="tocpg"><a href="#IMPERIEUSE2">83</a></td></tr>
+<tr class="trsm"><td class="tocti">Mail Boat "St. Ola" coming alongside H.M.S. "Victorious"</td><td class="tocpg"><a href="#STOLA">83</a></td></tr>
+<tr class="trsm"><td class="tocti">Sorting Mails for the Fleet on H.M.S. "Imperieuse"</td><td class="tocpg"><a href="#MAILS">84</a></td></tr>
+<tr class="trsm"><td class="tocti">Distributing Newspapers for the Fleet (H.M.S. "Imperieuse")</td><td class="tocpg"><a href="#NEWSPAPERS">85</a></td></tr>
+<tr class="trsm"><td class="tocti">Dockyard Workmen leaving H.M.S. "Victorious" for Work in the Fleet</td><td class="tocpg"><a href="#DOCKYARD">86</a></td></tr>
+<tr class="trsm"><td class="tocti">Repairing a Steam Pinnace on the Slipway at Lyness</td><td class="tocpg"><a href="#PINNACE">86</a></td></tr>
+<tr class="trsm"><td class="tocti">School Children's Entertainment on H.M.S. "Victorious"</td><td class="tocpg"><a href="#ENTERTAINMENT">87</a></td></tr>
+<tr class="trsm"><td class="tocti">Three of the Young Orcadian Guests</td><td class="tocpg"><a href="#YOUNG">87</a></td></tr>
+<tr class="trsm"><td class="tocti">"No Coupons Required"</td><td class="tocpg"><a href="#COUPONS">88</a></td></tr>
+<tr class="trsm"><td class="tocti">Crew of Drifter "Shalot"</td><td class="tocpg"><a href="#SHALOT">89</a></td></tr>
+<tr class="trsm"><td class="tocti">Lifting Chain Cables</td><td class="tocpg"><a href="#LIFTING">89</a></td></tr>
+<tr class="trsm"><td class="tocti">Mooring Vessel "Recovery" at Scapa Flow</td><td class="tocpg"><a href="#MOORING">89</a></td></tr>
+<tr class="trsm"><td class="tocti">U.S.S. "Patuxent" and "272" alongside H.M.S. "Victorious" for Repairs</td><td class="tocpg"><a href="#PATUXENT">90</a></td></tr>
+<tr class="trsm"><td class="tocti">American Minesweepers in the Floating Dock for Repairs</td><td class="tocpg"><a href="#MINESWEEPER">90</a></td></tr>
+<tr class="trsm"><td class="tocti">A Damaged British Destroyer being repaired in the Dock</td><td class="tocpg"><a href="#DESTROYER">90</a></td></tr>
+<tr class="trsm"><td class="tocti">S.S. "Borodino," Junior Army and Navy Stores' Store-Ship with the Grand Fleet</td><td class="tocpg"><a href="#BORODINO">91</a></td></tr>
+<tr class="trsm"><td class="tocti">Interior of Shop on S.S. "Borodino"</td><td class="tocpg"><a href="#BORODINO2">91</a></td></tr>
+<tr class="trsm"><td class="tocti">A Corner of an Officer's Cabin</td><td class="tocpg"><a href="#CABIN">92</a></td></tr>
+<tr class="trsm"><td class="tocti">Fishing for Sea-Trout</td><td class="tocpg"><a href="#FISHING">93</a></td></tr>
+<tr class="trsm"><td class="tocti">A Ship's Picnic</td><td class="tocpg"><a href="#PICNIC">93</a></td></tr>
+<tr class="trsm"><td class="tocti">A Bathing Party</td><td class="tocpg"><a href="#BATHING">93</a></td></tr>
+<tr class="trsm"><td class="tocti">The Naval Cemetery at Lyness</td><td class="tocpg"><a href="#CEMETERY">94</a></td></tr>
+<tr class="trsm"><td class="tocti">The "Hampshire" Memorial</td><td class="tocpg"><a href="#HAMPSHIRE">94</a></td></tr>
+<tr class="trsm"><td class="tocti">An Interesting Stone to the Memory of a Chinaman who died at Scapa</td><td class="tocpg"><a href="#CHINAMAN">94</a></td></tr>
+<tr class="trsm"><td class="tocti">The "Malaya" Memorial</td><td class="tocpg"><a href="#MALAYA">95</a></td></tr>
+<tr class="trsm"><td class="tocti"><span class="pagenum"><a name="Page_xix" id="Page_xix">[xix]</a></span>The "Vanguard" Memorial</td><td class="tocpg"><a href="#VANGUARD">95</a></td></tr>
+<tr class="trsm"><td class="tocti">Making for Home</td><td class="tocpg"><a href="#VICTORIOUS2">96</a></td></tr>
+<tr class="trsm"><td class="tocti">The Scuttling of the German Ships</td><td class="tocpg"><a href="#SCUTTLING">97</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Lion" entering Hoxa Boom, Scapa Flow, at Head of German Battle Cruisers, 25th November, 1918</td><td class="tocpg"><a href="#LION">100</a></td></tr>
+<tr class="trsm"><td class="tocti">H.M.S. "Repulse," "Renown," "Princess Royal," and "Tiger" Escorting German Battle Cruisers through Hoxa Boom, 25th November, 1918</td><td class="tocpg"><a href="#REPULSE">100</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Seydlitz" entering Hoxa Boom, 25th November, 1918</td><td class="tocpg"><a href="#SEYDLITZ">102</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Von der Tann" entering Hoxa Boom, 25th November, 1918 </td><td class="tocpg"><a href="#VONDERTANN">102</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Moltke" entering Hoxa Boom, 25th November 1918 </td><td class="tocpg"><a href="#MOLTKE">103</a></td></tr>
+<tr class="trsm"><td class="tocti">The Interned German Ships at Scapa </td><td class="tocpg"><a href="#INTERNED">103</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Seydlitz" </td><td class="tocpg"><a href="#SEYDLITZ2">104</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Moltke" at Scapa Flow </td><td class="tocpg"><a href="#MOLTKE2">105</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Derfflinger" at Scapa Flow </td><td class="tocpg"><a href="#DERRFLINGER2">106</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Hindenburg" at Scapa Flow </td><td class="tocpg"><a href="#HINDENBURG">106</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battleship "Friedrich Der Grosse" </td><td class="tocpg"><a href="#FRIEDRICH">107</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battleship "Kaiserin" </td><td class="tocpg"><a href="#KAISERIN">107</a></td></tr>
+<tr class="trsm"><td class="tocti">German Light Cruiser "K&ouml;ln" </td><td class="tocpg"><a href="#KOLN">108</a></td></tr>
+<tr class="trsm"><td class="tocti">German Destroyers at Lyness, with Battleships in the Distance </td><td class="tocpg"><a href="#DESTROYERS">108</a></td></tr>
+<tr class="trsm"><td class="tocti">Plan of the Anchorage of German Ships at Scapa Flow </td><td class="tocpg"><a href="#ANCHORAGE">110</a></td></tr>
+<tr class="trsm"><td class="tocti">A Party of French Officers visiting the German Ships </td><td class="tocpg"><a href="#FRENCH">111</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battleship "Bayern" sinking by the Stern, 2 p.m., 21st June, 1919</td><td class="tocpg"><a href="#BAYERN">112</a></td></tr>
+<tr class="trsm"><td class="tocti">The Final Plunge of the "Bayern" </td><td class="tocpg"><a href="#BAYERN2">113</a></td></tr>
+<tr class="trsm"><td class="tocti">German Destroyers sinking or beached off the Island of Fara </td><td class="tocpg"><a href="#FARA">114</a></td></tr>
+<tr class="trsm"><td class="tocti">German Sailors taking to the Boats </td><td class="tocpg"><a href="#GERMANBOATS">115</a></td></tr>
+<tr class="trsm"><td class="tocti">British Boarding Party alongside sinking German Destroyer </td><td class="tocpg"><a href="#BOARDINGPARTY">116</a></td></tr>
+<tr class="trsm"><td class="tocti">General View showing German Destroyers sinking on the Right and Battleships in the Distance, at 3.30 p.m., 21st June, 1919 </td><td class="tocpg"><a href="#GENERALVIEW">117</a></td></tr>
+<tr class="trsm"><td class="tocti">German Battle Cruiser "Hindenburg" as she now rests at Scapa </td><td class="tocpg"><a href="#HINDENBURG2">118</a></td></tr>
+<tr class="trsm"><td class="tocti">Whaler "Ramna" stranded on German Battle Cruiser "Moltke" 23rd June, 1919, taken just before "Ramna" refloated</td><td class="tocpg"><a href="#RAMNA">119</a></td></tr>
+<tr class="trsm"><td class="tocti">German Cruiser "Nurnberg" immediately after being refloated at 2 p.m. on 3rd July, 1919</td><td class="tocpg"><a href="#NURNBERG">120</a></td></tr>
+<tr class="trsm"><td class="tocti">Salvage Operations on Battleship "Baden" and Cruiser "Frankfurt" beached at Smoogroo</td><td class="tocpg"><a href="#BADEN">121</a></td></tr>
+<tr class="trsm"><td class="tocti"><span class="pagenum"><a name="Page_xx" id="Page_xx">[xx]</a></span>Salvage Work on the "Baden" </td><td class="tocpg"><a href="#BADEN2">122</a></td></tr>
+<tr class="trsm"><td class="tocti">Pumping out the "Frankfurt"</td><td class="tocpg"><a href="#FRANKFURT">123</a></td></tr>
+<tr class="trsm"><td class="tocti">Cruiser "Bremse," which capsized whilst being beached</td><td class="tocpg"><a href="#BREMSE">124</a></td></tr>
+<tr class="trsm"><td class="tocti">Battle Cruiser "Seydlitz," lying on her Starboard Side in Shallow Water</td><td class="tocpg"><a href="#SEYDLITZ3">124</a></td></tr>
+<tr class="trsm"><td class="tocti">Hoisting the Union Jack on a sinking German Destroyer </td><td class="tocpg"><a href="#UNIONJACK">125</a></td></tr>
+<tr class="trsm"><td class="tocti">On the "Seydlitz"</td><td class="tocpg"><a href="#SEYDLITZ4">125</a></td></tr>
+<tr class="trsm"><td class="tocti">"Baden" being towed South to Invergordon</td><td class="tocpg"><a href="#INVERGORDON">125</a></td></tr>
+<tr class="trsm"><td class="tocti">Salving German Destroyer "G 102"</td><td class="tocpg"><a href="#SALVING">126</a></td></tr>
+<tr class="trsm"><td class="tocti">Salvage Party working on a German Destroyer</td><td class="tocpg"><a href="#SALVAGEPARTY">127</a></td></tr>
+<tr class="trsm"><td class="tocti">View showing Salved ex-German Cruisers and Destroyers at Long Hope, October, 1919 </td><td class="tocpg"><a href="#SALVED">128</a></td></tr>
+<tr class="trsm"><td class="tocti">The Salved German Cruisers "Nurnberg" and "Emden" in Long Hope Bay</td><td class="tocpg"><a href="#SALVED2">129</a></td></tr>
+<tr class="trsm"><td class="tocti">View Looking Aft from After-Control Top of "Frankfurt"</td><td class="tocpg"><a href="#FRANKFURT2">130</a></td></tr>
+<tr class="trsm"><td class="tocti">View Looking Forward from the Same Position</td><td class="tocpg"><a href="#VIEWFORWARD">130</a></td></tr>
+<tr class="trsm"><td class="tocti">Expansion Ring Marking on 6-Inch Gun "Nurnberg"</td><td class="tocpg"><a href="#EXPANSIONRING">131</a></td></tr>
+<tr class="trsm"><td class="tocti">A Humorous Effort on the Part of One of Our Sailors</td><td class="tocpg"><a href="#HUMOROUS">131</a></td></tr>
+<tr class="trsm"><td class="tocti">The Propeller Blade of the "Seydlitz"</td><td class="tocpg"><a href="#PROPELLER">131</a></td></tr>
+<tr class="trsm"><td class="tocti">Range-Finder and Searchlight Platform, "Nurnberg"</td><td class="tocpg"><a href="#RANGEFINDER">132</a></td></tr>
+<tr class="trsm"><td class="tocti">88-Mm. Guns, "Nurnberg"</td><td class="tocpg"><a href="#MM88">132</a></td></tr>
+<tr class="trsm"><td class="tocti">6-Inch Gun on "Nurnberg" After-Turret</td><td class="tocpg"><a href="#INCH6">133</a></td></tr>
+<tr class="trsm"><td class="tocti">5&middot;9-Inch After-Breech, "Nurnberg"</td><td class="tocpg"><a href="#INCH59">133</a></td></tr>
+<tr class="trsm"><td class="tocti">Searchlight Control Platform, "Frankfurt"</td><td class="tocpg"><a href="#SEARCHLIGHT">133</a></td></tr>
+<tr class="trsm"><td class="tocti">10&middot;5-Cm. Gun on a German Destroyer </td><td class="tocpg"><a href="#CM105">134</a></td></tr>
+<tr class="trsm"><td class="tocti">Torpedo Tubes on a Destroyer</td><td class="tocpg"><a href="#TORPEDO">135</a></td></tr>
+<tr class="trsm"><td class="tocti">Engine-Room Control Board, "Emden"</td><td class="tocpg"><a href="#ENGINEROOM">136</a></td></tr>
+<tr class="trsm"><td class="tocti">Lower Conning Tower, "Emden"</td><td class="tocpg"><a href="#CONNING">137</a></td></tr>
+<tr class="trsm"><td class="tocti">German Destroyer being towed South to Rosyth, March, 1920</td><td class="tocpg"><a href="#ROSYTH">138</a></td></tr>
+<tr class="trsm"><td class="tocti">Blowing up the Minefields</td><td class="tocpg"><a href="#BLOWINGUP">140</a></td></tr>
+<tr class="trsm"><td class="tocti">Closer View of Mine Explosion</td><td class="tocpg"><a href="#CLOSERVIEW2">140</a></td></tr>
+<tr class="trsm"><td class="tocti">Salvage Operations on S.S. "Aorangi"</td><td class="tocpg"><a href="#AORANGI">142</a></td></tr>
+<tr class="trsm"><td class="tocti">Sunset over the Hills of Hoy</td><td class="tocpg"><a href="#SUNSETHOY">144</a></td></tr>
+</table></div>
+
+
+<hr class="chap" />
+
+<div class="figcenter" style="width: 623px;">
+<a id="SCAPAMAP"></a><img src="images/i_021.jpg" width="623" height="569" alt="" />
+<div class="captionr">To face p. xx.</div>
+<div class="caption"><span class="smcap">Map of Scapa Flow and the Orkney Islands.</span></div>
+</div>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_1" id="Page_1">[1]</a></span></p>
+
+
+
+
+<h2><a name="PART_I" id="PART_I"></a>PART I<br />
+<span class="smallc">THE DEVELOPMENT OF THE BASE</span></h2>
+
+
+<div class="figcenter" style="width: 549px;">
+<img src="images/i_022.jpg" width="549" height="373" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Cyclops" at Long Hope.</span></div>
+</div>
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_3" id="Page_3">[3]</a></span></p>
+
+
+
+<p class="largec"><a name="SCAPA_AND_A_CAMERA" id="SCAPA_AND_A_CAMERA"></a>SCAPA AND A CAMERA</p>
+<p class="smallc">THE DEVELOPMENT OF THE BASE</p>
+
+<div>
+  <img class="drop-cap" src="images/i_024.png" width="74" height="80" alt="S" />
+</div>
+
+<p class="drop-cap"><span class="smcap">Some</span> slight apologia seems necessary to-day for the publication of
+a book of war reminiscences (even though they be mainly photographic),
+when so many personages, from Admirals and Generals
+downwards to the humbler ranks of W.A.A.C.'s and lady typists
+in Government offices, have seen fit to record in print their
+experiences during the Great War. This little album is being published at the
+suggestion of various friends in the Naval Service, with whom the writer has
+come into contact during the five years he has been associated with the Royal
+Navy at the Grand Fleet Base at Scapa Flow, and, it is hoped, may reach a wider
+circle of those to whom the name "Scapa Flow" has hitherto conveyed but
+a hazy notion of islands shrouded in perpetual northern mist&mdash;somewhere north
+of Scotland, c/o G.P.O., where for five years the Grand Fleet kept its monotonous
+vigil in readiness for "the Day," and where finally it had its reward when, in
+November, 1918, the German Fleet was ignominiously escorted into the waters
+of the Flow, whose defences its submarines had more than once endeavoured,
+unsuccessfully, to penetrate.</p>
+
+<p>Various writers&mdash;<i>e.g.</i>, "Bartimaeus" and the author of "In the Northern
+Mists"&mdash;have written vivid pen pictures of the everyday life of the Navy, and
+the photographs reproduced in the following pages, besides recalling many
+monotonous&mdash;and some pleasant&mdash;times to those who served at Scapa during
+the war, may help to supplement these books by presenting the actual environment
+and life of those whose "lawful occasions" necessitated so long a sojourn
+in these northern waters.</p>
+
+<p>To many "Scapa" is a name (judging from the warmth of their remarks
+when the subject is mentioned) that they would like to eradicate for ever from
+their book of remembrance. Their feelings are expressed in a parody of a well-known
+song which appeared in the <i>Orcadian</i> of the 5th December, 1918, entitled&mdash;</p>
+
+<p><span class="pagenum"><a name="Page_4" id="Page_4">[4]</a></span></p>
+
+<p class="center p2">SCAPA FLOW<br />
+<span class="smcap">(A Hymn of Hate).</span></p>
+
+
+<div class="poem-container">
+<div class="poem"><div class="stanza">
+<span class="i0">Have you ever heard the story of how Scapa got its name?<br /></span>
+<span class="i0">If you haven't then you're slow, because it's earned a world-wide fame.<br /></span>
+<span class="i0">It has caused a lot of howling amongst our tars at sea,<br /></span>
+<span class="i0">So I'll tell to you the story as a sailor told it me:<br /></span>
+</div><div class="stanza">
+<span class="i0">Sure a little bit of wastage fell from out the sky one day,<br /></span>
+<span class="i0">And it fell into the ocean in a spot up Scotland way.<br /></span>
+<span class="i0">And when the Sea Lords saw it, sure! it looked so bleak and bare<br /></span>
+<span class="i0">They said, "Suppose we start to build a Naval Base up there."<br /></span>
+</div><div class="stanza">
+<span class="i0">So they dotted it with colliers, to provide the tars with work,<br /></span>
+<span class="i0">With provision boats and oilers, that they dared not dodge or shirk.<br /></span>
+<span class="i0">Then they sprinkled it with raindrops, with sleet and hail and snow,<br /></span>
+<span class="i0">And when they had it finished, sure, they called it Scapa Flow.<br /></span>
+</div><div class="stanza">
+<span class="i0">Now the Navy's been at Scapa ever since we've been at war,<br /></span>
+<span class="i0">And whenever it is over, they won't want to see it more.<br /></span>
+<span class="i0">But for years and years to come, whenever sailors congregate<br /></span>
+<span class="i0">You may bet your life you may hear them sing that Scapa hymn of hate.<br /></span>
+</div></div></div>
+
+<p>Curiously enough, the weather forecast given in the <i>Orcadian</i> immediately
+below read: "Showers or drizzling rain; local mist."</p>
+
+<p>Certainly even the most enthusiastic Orcadian has to admit that the islands
+have few natural features to commend them, and even less of the artificial amenities
+of civilisation: country practically bare of trees and vegetation, days in winter
+when the sun hardly seems to rise at all, and a climate that seems to hold the
+record for rainfall, storms, and unreliability.</p>
+
+<div class="figcenter" style="width: 407px;">
+<a id="HOY"></a><img src="images/i_026.jpg" width="407" height="600" alt="" />
+<div class="caption"><span class="smcap">St. John's Head, Hoy.</span><br />
+<span class="smallc">(The Highest Cliff in Great Britain.)</span></div>
+</div>
+
+<p>Yet, in spite of all the unkindness of Nature, to many there hangs a cloud
+of romance over these far-away northern islands. To those who have the
+observing eye, they are rich in the remains of a prehistoric past, with a history
+extending far back into the centuries. They possess a coast of unsurpassed
+grandeur of form and beauty of colouring, and as they are approached from
+the south, or seen from one of the hills of Hoy on a fair day, appear like
+some "fairy archipelago set in a summer sea," whilst a distant mirage
+often heightens the effect of unreality. In few places does one see such
+wonderful sunsets and cloud effects as in Orkney, followed often a little
+later by the "searchlight" rays of the Aurora Borealis. But mainly will
+those who spent long months and years in Orkney look back, not without<span class="pagenum"><a name="Page_5" id="Page_5">[5]</a></span>
+regrets, on the spirit of comradeship which made exile endurable, and which,
+in face of a common danger, united even the most varied personalities to work in
+harmony for a common cause. Many friendships were made which will long survive
+the war; many a "cheery night" in the wardroom will recall pleasant memories
+of those who are now scattered over the Seven Seas; and few of the many thousands
+who returned to civil life after serving in the Navy during the war but will have
+some regrets for the days when they took the rough and the smooth together
+(it was mostly rough) in the northern mists of Scapa Flow. Not a few married
+into Orcadian families, and the writer recalls his embarrassment on one occasion
+when in Stonehouse Naval Hospital recovering from an operation, in discussing
+somewhat freely various Kirkwall acquaintances with a naval officer invalided
+from the Northern Base, he happened to mention a certain lady's name as one
+of the fairest of the Orcadian maidens, whom he understood had married a naval
+officer. "Yes," was the reply, "she is my wife."</p>
+
+<p>Until quite recently Scapa Flow and the Orkneys were practically unknown
+to the majority of Englishmen, and even to-day very few could point out the
+exact location of Scapa Flow on the map. In a well-known London newspaper
+of 23rd June, 1919 (after the scuttling of the German Fleet), Scapa Flow was
+marked on a map as north of Kirkwall, whereas it will be seen from the map
+reproduced in this volume that it is actually south of that town.</p>
+
+<p>It is recalled also that on one occasion a travelling claim of a certain officer
+at the Base was returned from the Admiralty with a query as to the car hire
+claimed, and the inquiry was made as to why more use had not been made of the
+railway facilities!</p>
+
+<div class="figcenter" style="width: 491px;">
+<a id="HOUTON"></a><img src="images/i_028a.jpg" width="491" height="315" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Drifter Net-Boom Defence at Houton.</span></div>
+</div>
+
+<div class="figcenter" style="width: 489px;">
+<a id="SUNKENSHIPS"></a><img src="images/i_028b.jpg" width="489" height="268" alt="" />
+<div class="captionr">J. Phillips.</div>
+<div class="caption"><span class="smcap">Sunken Ships between St. Margaret's Hope and Burray.</span></div>
+</div>
+
+<p>Scapa Flow was used as an exercise ground for the Home Fleet many years
+before the war, with headquarters at the north-eastern corner of the Flow; but
+no preparations appear to have been made for its use as a permanent war Base
+prior to 1914, and consequently an enormous amount of pioneer work was needed
+to render it a safe and efficient harbour for the Grand Fleet and its auxiliaries.
+The magic growth of the Base from a few ships to many hundreds of vessels of
+all types&mdash;battleships, cruisers, destroyers, submarines, dep&ocirc;t ships, oilers,
+colliers, store and ammunition ships, hospital ships, etc.&mdash;constituting the most
+powerful Fleet ever assembled in one place, was a gradual process, in which
+many novel situations arose and many difficulties had to be met and contended<span class="pagenum"><a name="Page_8" id="Page_8">[8]</a></span>
+with. The absence of railway communication, the difficulties of local transport
+in weather conditions which at times even large vessels could not face, were
+additional obstacles to the hurried improvisation of arrangements, both ashore
+and afloat, which were essential to the effectual working of the Grand Fleet.</p>
+
+<p>When Admiral Jellicoe succeeded Sir George Callaghan as Commander-in-Chief
+of the newly-named "Grand Fleet" on 4th August, 1914, there were
+practically no defences whatever on any of the islands, with the exception of a
+few 12-pounder guns landed from the Fleet, whilst there were, of course, no
+booms or obstructions across the numerous entrances (Hoxa, Switha, Hoy, and
+Holm Sounds) to the Flow. It was not until the end of 1914 and the beginning
+of 1915 that sunken ships were placed across the narrower channels, such as
+Burra, Water, and Holm Sounds, and that net-boom defence drifters were placed
+across the larger ones, and 4-inch and 6-inch guns landed at various batteries,
+which were erected to command these entrances. Consequently, during these
+early months of the war, the Grand Fleet could not remain in harbour in the
+Flow for more than a very brief period, owing to the danger of submarine attack;
+indeed, as Jellicoe remarks in his book on the Grand Fleet, it is a wonder that the
+Germans did not make a more determined attack on our Fleet during this period.
+It was on 16th/17th October, 1914, that the "Battle of Scapa Flow" took place,
+when a report that a submarine was in the Flow caused great excitement, and
+every available type of craft got under way in the endeavour to locate and
+sink it, firing at anything remotely resembling a periscope, and at night-time
+sweeping the seas with their searchlights. It was, I believe, never actually
+ascertained whether a submarine was present, but, as a result, the Grand Fleet
+moved further westwards to Lough Swilly, and did not return to Scapa until a
+few months later when the defences were somewhat more secure. Meantime
+the organisation of the Base proceeded apace, and H.M.S. "Cyclops" and
+"Assistance," Fleet repair ships, were joined by a large and increasing number
+of vessels, with Rear-Admiral F. S. Miller in command of the Base. Even so,
+continued difficulty was felt to accommodate the even more rapidly expanding
+personnel, and Admiral Jellicoe writes regarding the "Cyclops" at this period:
+"The manner in which the great demands on her accommodation were met was
+a standing wonder to me. In the early part of the war, officers on Admiral
+Miller's Staff and others were obliged to make their sleeping berths as best they<span class="pagenum"><a name="Page_9" id="Page_9">[9]</a></span>
+could on the deck or on top of their writing-tables, and it was surprising that
+the overcrowding in all directions did not affect health."</p>
+
+<div class="figcenter" style="width: 737px;">
+<a id="GRANDFLEET"></a><img src="images/i_030a.jpg" width="737" height="169" alt="" />
+<div class="caption">
+<span class="smcap">The Grand Fleet Base at Long Hope, 1916, looking towards Weddel Sound.</span></div>
+</div>
+
+
+<div class="figcenter" style="width: 733px;">
+<a id="CLOSERVIEW"></a><img src="images/i_030b.jpg" width="733" height="168" alt="" />
+<div class="caption"><span class="smallc">"Cyclops." "Victorious." "Assistance." "Imperieuse." "Ruthenia."</span><br />
+<span class="smcap">Closer View of the Base Ships at Long Hope.</span></div>
+</div>
+
+<p>Towards the end of October, 1914, the Base, owing to weather conditions,
+was moved from Scapa Bay to Long Hope, where it remained until April, 1919,
+when it was transferred to Lyness, where a substantial sea-wall was in process of
+completion, and where the Floating Dock was moored. Here it still remains,
+though of it "Ichabod" must be written, for it retains only a shadow of its
+former activities. The Fleet itself lay north of Weddel Sound, and the auxiliaries
+were disposed between Long Hope and Gutter Sound (see <a href="#SCAPAMAP">map</a>).</p>
+
+<div class="figcenter" style="width: 687px;">
+<a id="IMPERIEUSE"></a><img src="images/i_032.jpg" width="687" height="466" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Imperieuse" at Long Hope.</span></div>
+</div>
+
+<p>One of the earliest arrivals at the Base was H.M.S. "Imperieuse" (previously
+"Fisgard I."). She left Portsmouth in September, 1914, in company with
+"Fisgard II.," with a party of dockyardmen who were coming up for work in the
+Grand Fleet; unfortunately "Fisgard II." capsized off Portland Bill with the
+loss of several lives, but "Fisgard I." arrived safely at Scapa Flow, and was
+renamed "Imperieuse." During the war she discharged many useful and
+important functions, and there are few naval officers who served any length of
+time at Scapa who did not at some time pass through her. Primarily she was
+the receiving and distributing centre for the mails for the Fleet, and some idea
+of the enormous number of letters, etc., dealt with may be gleaned from the fact
+that when the Fleet was present some 50,000 items were sorted and despatched
+daily. "Imperieuse" was also the headquarters of the staffs of the Admiralty
+Port Officer (or King's Harbour Master, as he would be styled at a dockyard
+port), Fleet Coaling Officer, Naval Store Officer, Victualling Store Officer, Naval
+Ordnance Officer, Cashier, Base Censor, and also accommodated the dockyard
+working parties, until at a later stage other vessels arrived which relieved her of
+some of these functions. In spite of the limited office and cabin accommodation,
+it was an interesting time: the work and the conditions were novel, and there
+was always plenty to be done in straightening out the various problems that
+arose. One could write a small volume on the personalities one met at the Base
+at that time: of a certain genial captain, addicted to forcible but effective speech;
+of "V.O.S.O.," equally proficient in supplying flour and potatoes, and music;
+of "N.O.S.O.," who insisted on a duly receipted, countersigned, and approved
+voucher (in triplicate) before he would part with a minute brass screw; of the
+"Drifter King," whose knowledge of Scotch drifter-men and their idiosyncrasies<span class="pagenum"><a name="Page_11" id="Page_11">[11]</a></span>
+was profound; of a certain officer in charge of Water Boats, sent to the Base by the
+Admiralty as a "gentleman of affairs," whose versatility flowed into such diverse
+channels as the organisation of a band, sports, the edition of a ship's magazine,
+the supervision of gifts forwarded by the Fresh Fruit and Vegetables Fund, and
+in numerous other directions; of W&mdash;&mdash; and B&mdash;&mdash; (the "Bullion Brokers"), who
+could give you <i>the</i> very latest tip straight from the horse's mouth: these are but
+a few of those who enlivened the Base in 1915-1916.</p>
+
+<div class="figcenter" style="width: 543px;">
+<a id="VICTORIOUS"></a><img src="images/i_033.jpg" width="543" height="313" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Victorious" at Scapa Flow.</span></div>
+</div>
+
+<p>One of the next noteworthy arrivals at the Base was that of H.M.S.
+"Victorious," early in 1916. A "dockyard ship" had been awaited for nearly
+a year to relieve the congestion on "Imperieuse," and in September, 1915, the
+"Caribbean," duly fitted out for the purpose, left Liverpool for Scapa, but, like
+"Fisgard II.," sank on the journey north off Cape Wrath. H.M.S. "Victorious"
+was then taken in hand, and reached the Base safely in March, 1916. She was well
+provided with workshops and accommodation&mdash;being indeed a miniature "floating
+dockyard"&mdash;and at times over 500 dockyard artisans were accommodated, although
+these usually lived afloat on the ships of the Grand Fleet. The presence of such
+a large body of civilian workmen on a ship officered and manned by Service ranks<span class="pagenum"><a name="Page_13" id="Page_13">[13]</a></span>
+and ratings presented several novel problems, and it was largely due to the tact
+and consideration of both parties that the experiment, on the whole, was justified
+by the results. The possession of such a ship at the Base, by enabling defects
+to be adjusted and installations, such as director firing gear, protective deck
+plating, flying-off platforms, etc., to be fitted by skilled workmen at the Base
+instead of at a southern dockyard, added considerably to the fighting strength
+of the Fleet at a time when ships were badly needed, and when our numerical
+superiority over the enemy fleet was less marked than at a later period of the war.</p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="RUTHENIA"></a><img src="images/i_034.jpg" width="539" height="248" alt="" />
+<div class="caption"><span class="smcap">R.F.A. "Ruthenia."</span></div>
+</div>
+
+<p>Early in 1917 the addition of a small Floating Dock enabled much useful
+work to be done in carrying out minor refits and emergency repairs, and over
+200 keels were docked whilst it remained at Scapa.</p>
+
+<p>The Fleet repair ships, H.M.S. "Cyclops" and "Assistance," have already
+been referred to, and they should not be overlooked in this connection; both
+these vessels carried out, with naval ratings, valuable repairs in connection with
+the maintenance of the machinery, etc., of the ships of the Grand Fleet.</p>
+
+<div class="figcenter" style="width: 545px;">
+<a id="SOKOTO"></a><img src="images/i_035a.jpg" width="545" height="254" alt="" />
+<div class="caption">
+<span class="smcap">Torpedo Sub-Dep&ocirc;t Ship "Sokoto" lying in the Inner Hope.</span>
+</div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="BROUGHBIRSAY"></a><img src="images/i_035b.jpg" width="544" height="284" alt="" />
+<div class="caption">
+<span class="smcap">The Brough of Birsay, off which H.M.S. "Hampshire" was lost on
+6th June, 1916.</span></div>
+</div>
+
+<p>Meantime the duties of "Imperieuse" were still further relieved by the
+arrival of other vessels. R.F.A. "Ruthenia," previously a dummy battleship,
+became the storeship and headquarters of the Victualling and Naval Store Officers,
+and the Fleet Coaling Officer took up his quarters in R.F.A. "Perthshire" in<span class="pagenum"><a name="Page_14" id="Page_14">[14]</a></span>
+the secluded waters of Pegal Bay; whilst the "Sokoto" (a dep&ocirc;t ship for the
+storing and repair of torpedoes) and M.F.A. "Zaria" (repair ship for small craft,
+such as drifters, trawlers, etc.) were already at Long Hope.</p>
+
+<div class="figright" style="width: 295px;">
+<a id="DRIVING"></a><img src="images/i_036.jpg" width="295" height="418" alt="" />
+<div class="caption"><span class="smcap">Driving Off from the First Hole
+on Flotta.</span></div>
+</div>
+
+<p>Once the early work of organisation was over, life at Scapa, especially for
+the Base ships, settled down to a somewhat monotonous routine, varied by
+spasms of excitement when the Grand Fleet received orders to proceed to sea,
+and one wondered if <i>this</i> time it was
+actually a "stunt," or merely once
+more "P.Z." The summer of 1916
+was not, however, without incident.
+The return of the Fleet from Jutland,
+on the morning of 2nd June, was an
+exciting moment, followed a few days
+later by the dramatic news that Lord
+Kitchener had been lost in H.M.S.
+"Hampshire" off Marwick Head, and
+later in the month the King paid a
+short visit to the Fleet. Just over a
+year later, in July, 1917, the battleship
+"Vanguard" blew up with the loss of
+practically the entire ship's company.
+The explosion occurred late at night
+(about eleven o'clock), and the vivid
+flames which illumined the twilight sky
+(it was still fairly light) were followed
+by a dense column of smoke rising
+about half a mile into the sky. Everyone
+rushed on deck clad in a varied
+assortment of night attire, every available craft was rushed to the scene of the
+disaster, and anti-submarine precautions were ordered to be taken. Some idea of
+the force of the explosion may be gathered from the fact the "Vanguard's"
+pinnace was blown clean over the next ship in the line, and landed in the water
+on the other side, practically undamaged, whilst it was reported that a packet of
+Treasury notes was picked up intact next day on the neighbouring island of Flotta.</p>
+
+<p><span class="pagenum"><a name="Page_16" id="Page_16">[16]</a></span></p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="CHILDRENSRACE"></a><img src="images/i_037a.jpg" width="544" height="336" alt="" />
+<div class="caption"><span class="smcap">Children's Race at Long Hope Sports.</span></div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="SPORTS"></a><img src="images/i_037b.jpg" width="544" height="321" alt="" />
+<div class="caption"><span class="smcap">Watching the Sports.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_17" id="Page_17">[17]</a></span></p>
+
+<div class="figcenter" style="width: 685px;">
+<a id="BOXING"></a><img src="images/i_038.jpg" width="685" height="486" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">A Boxing Match on Flotta.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_18" id="Page_18">[18]</a></span></p>
+
+<div class="figcenter" style="width: 543px;">
+<a id="GARDEN"></a><img src="images/i_039.jpg" width="543" height="324" alt="" />
+<div class="caption"><span class="smcap">A Ship's Garden at Crockness.</span></div>
+</div>
+
+<p>Towards the end of December, 1917, our Fleet was strengthened by the
+arrival of four U.S. battleships, which were incorporated into the Grand Fleet
+as the Sixth Battle Squadron. The presence of the Americans contributed some
+new features into the life of the Base, notably in the domain of sport, and baseball
+became for a time quite a popular game. The importance of games and sport,
+incidentally, has always been recognised in the Navy, and nowhere was the need
+for recreation more essential for the maintenance of morale and fitness than at
+Scapa. Football was played all the year round (there being no summer to speak
+of in these northern latitudes) on Flotta (the playing ground of the Grand Fleet),
+and at Long Hope and Lyness by the Base ships, whilst two or three rough golf
+courses were laid out for the use of officers. Admiral Jellicoe used often to be
+seen playing a hurried game round the course at Flotta in the few moments of
+relaxation he was able to snatch from his work on the "Iron Duke." Tennis
+was hardly a possible game, owing to the inclement weather and the continual
+winds, but one or two ash and gravel courts were made at the shore batteries.
+Sailing and pulling matches were frequently arranged, and the sports of the
+Base ships at Long Hope became an annual event greatly looked forward to<span class="pagenum"><a name="Page_19" id="Page_19">[19]</a></span>
+by the local inhabitants as well as by the ships' companies. Another annual
+event of great interest was the Grand Fleet Boxing Championship Contest, held
+outside the Y.M.C.A. Hut at Flotta. These competitions were witnessed by as
+many as 10,000 men, and the writer recalls an inspiring speech made by Admiral
+Beatty to this great gathering of sailors in July, 1917, after he had distributed the
+prizes. Prince Albert, incidentally, was present on this occasion.</p>
+
+<div class="figcenter" style="width: 688px;">
+<a id="NEWYORK"></a><img src="images/i_040.jpg" width="688" height="420" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">U.S.S. "New York" Leading the 6th Battle Squadron into Scapa after crossing
+the Atlantic.</span></div>
+</div>
+
+<div class="figcenter" style="width: 500px;">
+<a id="HARVEST"></a><img src="images/i_041.jpg" width="500" height="324" alt="" />
+<div class="caption"><span class="smcap">"Harvest Festival."</span></div>
+</div>
+
+<p>The work of the Y.M.C.A. Huts, at Flotta and Long Hope, and of the Church
+Army Hut later at Lyness, was of great value in providing almost the only recreation
+and social amusement obtainable outside of one's ship, and the ladies
+who volunteered for service in these lonely islands deserve every praise for the
+way in which they cared for the comfort and entertainment of the men during
+the war.</p>
+
+<div class="figcenter" style="width: 690px;">
+<a id="GREENROOM"></a><img src="images/i_042.jpg" width="690" height="505" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">The "Green Room" of a Battleship: Officers making up for a Show.</span></div>
+</div>
+
+<p>Gardening became at one period quite a popular, as well as profitable, recreation
+amongst many of the men and officers, and although neither the soil nor the
+climate was very promising, some remarkably good crops of vegetables were
+obtained, which were especially welcome in view of the difficulties of obtaining<span class="pagenum"><a name="Page_21" id="Page_21">[21]</a></span>
+fresh fruit and vegetables on board ship. One enterprising ship actually raised
+chickens and pigs on one of the islands, although the uncertain movements of
+the ships made the feeding question a difficult problem at times.</p>
+
+<p>A variety of indoor amusements was provided on board ship. The "movies"
+were always a standing attraction, whilst billiards proved a popular war-time
+innovation, the movement of the ship adding a fascinating element of uncertainty
+to the game! Some excellent "shows" were organised, and an improvised stage,
+with the necessary accessories, was rigged up on the Frozen Meat Ship "Gourko,"
+which proved an ideal "theatre ship," although it was advisable to come warmly
+clad, as the auditorium was over the refrigerating room!</p>
+
+<p>Very little of interest occurred at the Base in the early part of 1918, and
+the Grand Fleet spent a considerable time in this year at Rosyth, where the completion
+of the boom defences permitted exercises and firing to be carried out with
+almost the same degree of safety and convenience as at Scapa. The progress
+of the war was, as elsewhere, watched with great excitement towards the end
+of the year, and the signing of the Armistice on the 11th November, 1918, came
+as a great relief after four years of strain and effort. One of the most welcome
+of the minor changes effected by the Armistice was the removal of the Censorship
+which had been rigorously maintained during the war, and for the first time the
+general public became aware of the jealously guarded secret of the location of
+the Northern Base of the Grand Fleet.</p>
+
+
+<div class="figcenter" style="width: 536px;">
+<a id="GERMANSHIPS"></a><img src="images/i_044a.jpg" width="536" height="334" alt="" />
+<div class="caption"><span class="smcap">The German Ships interned at Scapa.</span><br />
+<span class="smallc">(Battle-cruisers "Hindenburg" and "Derfflinger" in the foreground.)</span></div>
+</div>
+
+<div class="figcenter" style="width: 541px;">
+<a id="KAISER"></a><img src="images/i_044b.jpg" width="541" height="318" alt="" />
+<div class="caption"><span class="smcap">German Battleship "Kaiser" entering the Boom at Scapa Flow for Internment
+at Dawn on 26th November, 1918.</span></div>
+</div>
+
+<p>The entry of the German ships into Scapa Flow for internment towards the
+end of the month was a memorable sight, which will not soon be forgotten by
+those who witnessed it. The vessels came north from Rosyth in detachments,
+and each group of ships entered the Flow in the grey dawn of an autumn morning,
+escorted by our own ships. Little groups of spectators who had gathered at
+points of vantage on the islands identified the various ships as they entered with
+great interest, and more especially in the case of those who had last met them
+in action. It was some compensation for those who had spent so many months
+and years at Scapa that "the Day" should have culminated in such a dramatic
+and complete surrender of the German Fleet, although it seemed then almost
+unthinkable that such a surrender should have been made without at least an effort
+to strike a last blow, or in the last resort to scuttle their ships in port. That
+some, at any rate, of the officers of the German Navy had these feelings was
+<span class="pagenum"><a name="Page_23" id="Page_23">[23]</a></span>
+evident from the destruction of one of their submarines just before the Armistice
+in the act of entering the Flow, whose outer defences it had indeed penetrated.
+There seems little doubt that this was a last desperate attempt to sink as many
+as possible of our Fleet before the final and then inevitable surrender, and one
+cannot but acknowledge the spirit and the bravery of those who took part in
+such a forlorn hope.</p>
+
+<div class="figcenter" style="width: 696px;">
+<a id="DERFLINGER"></a><img src="images/i_045.jpg" width="696" height="450" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Derfflinger" Four Minutes before finally Sinking, 2.45 p.m.,
+21st June, 1919.</span></div>
+</div>
+
+<div class="figcenter" style="width: 688px;">
+<a id="VICEADMIRAL"></a><img src="images/i_046.jpg" width="688" height="434" alt="" />
+<div class="caption"><span class="smcap">Vice-Admiral Sir R. J. Prendergast making his Farewell Address on H.M.S. "Victorious,"
+15th February, 1920.</span></div>
+</div>
+
+<p>Even more dramatic was the afternoon of Saturday, 21st June, 1919, when
+the large majority of the interned vessels sank beneath the waters of the Flow.</p>
+
+<div class="figcenter" style="width: 542px;">
+<a id="GOODBYE"></a><img src="images/i_047.jpg" width="542" height="323" alt="" />
+<div class="captionr">N. A. K. Money.</div>
+<div class="caption"><span class="smcap">Good-bye to Scapa!</span></div>
+</div>
+
+<p>In accordance with the terms of the Armistice German crews were allowed
+to remain on board the interned ships, and after the preliminary inspection,
+there was practically no communication with our own ships except for essential
+matters of duty. This rather aided the preparation of the plans made by the
+Germans, and shortly after noon on the 21st the sea-cocks of all the vessels were
+simultaneously opened, and ensigns, and in some cases the Red Flag, hoisted. The
+First Battle Squadron, which was then at the Base, was exercising in the Pentland
+Firth at the time, and was not able to return until later in the afternoon, but all
+available tugs and small craft were immediately ordered to the sinking ships,<span class="pagenum"><a name="Page_27" id="Page_27">[27]</a></span>
+and as many as possible were run ashore on the surrounding islands. It was a
+clear afternoon, and probably no more wonderful sight has ever been witnessed
+than that of these huge vessels on all sides heeling over and plunging headlong&mdash;some
+with their sterns almost vertical above the water, others listing over to
+port or starboard, with steam and oil and air pouring out of the vents and rising
+to the surface long after the ships had completely disappeared beneath the water.
+D&eacute;bris of all sorts, boats, hammocks, lifebelts, chests, etc., littered the sea for
+miles round. Small craft of all descriptions were variously engaged: here a drifter
+would be seen picking up Germans from the water, there a pinnace towing a
+long string of boats and Carley floats full of prisoners to the Flagship, whilst
+other craft were occupied heading off parties of Germans who were endeavouring
+to make for the shore. One or two amusing incidents occurred during the
+scuttling. One of our water-boats was busily engaged supplying water to one of
+the ships as she was sinking, and whilst the Germans were actually leaving the
+ship on the other side. Some school children from Stromness in the tug "Flying
+Kestrel" had the unique experience of a trip round the ships in the morning,
+which on their return journey were sinking or had disappeared.</p>
+
+<p>By five or six o'clock the whole of the ships had sunk, except the battleship
+"Baden," which was boarded in time to save her, and three cruisers, which were
+run ashore or beached. The battle cruisers "Hindenburg" and "Seydlitz"
+drifted into shallow water, and with the cruiser "Bremse," which turned turtle
+as she was being beached, are resting on the bottom, and present a spectacle of
+interest to visitors as they pass in the Mail Boat to Stromness.</p>
+
+<p>Such was the inglorious end of the German Fleet, and with its disappearance
+the Base began slowly to break up. One by one the ships went south, and the
+acquaintances of many years were severed. On 15th February, 1920, the Base
+reverted to a peace-time status, and the Admiral commanding the Orkneys and
+Shetlands (Vice-Admiral Sir R. J. Prendergast) hauled down his flag. Towards
+the end of the month and during March the salved German cruisers and destroyers
+were towed south to Rosyth for distribution amongst the Allied Powers, and on
+25th March the last of the Base ships remaining, H.M.S. "Imperieuse" and
+H.M.S. "Victorious," left for Rosyth and Devonport respectively.</p>
+
+<p>To-day not a vessel remains of that vast assemblage of ships which were
+gathered at the Base during the war, and Scapa will probably in future be an<span class="pagenum"><a name="Page_28" id="Page_28">[28]</a></span>
+exercising base only for the Fleet as in pre-war times. But, whatever its future,
+the name of Scapa is one that has earned an undying fame in the history of the
+British Empire and of the world, and it will remain as an enduring memory to
+those who were destined by the chances of war to be exiled in those lonely islands
+of the North.</p>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_29" id="Page_29">[29]</a></span></p>
+
+
+<h2><a name="PART_II" id="PART_II"></a>PART II<br />
+<span class="smallc">SCENES AROUND SCAPA FLOW</span></h2>
+
+
+<div class="figcenter" style="width: 543px;">
+<a id="VIEWSOUTH"></a><img src="images/i_050.jpg" width="543" height="362" alt="" />
+<div class="caption"><span class="smcap">View looking South from Houton Bay.</span></div>
+</div>
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_30" id="Page_30">[30]</a></span></p>
+
+
+
+<p class="largec"><a name="SCENES_AROUND_SCAPA_FLOW" id="SCENES_AROUND_SCAPA_FLOW"></a>SCENES AROUND SCAPA FLOW</p>
+
+
+<h3>KIRKWALL</h3>
+
+<div>
+  <img class="drop-cap" src="images/i_052.png" width="83" height="80" alt="V" />
+</div>
+
+<p class="drop-cap"><span class="smcap">"Voir</span> Kirkwall, et mourir," a French naval officer remarked to me
+when visiting Scapa Flow. Without inquiring too closely as to
+whether there might not have been some ironical "double-entendre"
+in his apparent admiration of the capital of the
+Orkneys, it was certainly the Orcadian "Mecca" of the Grand
+Fleet, and never in its history has it known such activity and prosperity as during
+the five years of war. A sleepy little town of four or five thousand inhabitants, it
+was suddenly called upon to assist in supplying the needs of a floating population
+of close on 100,000 men, and its narrow main (and only) street, "where two wheelbarrows
+tremble when they meet," bustled with unwonted activity&mdash;messmen
+from the ships loading provisions, naval men and officers engaged in an afternoon's
+shopping and sightseeing, with an occasional motor lorry or car trying to
+thread its way amongst the traffic.</p>
+
+<p>Kirkwall, as will be seen from the map, is approached from the Flow by way
+of Scapa Pier, whence it is a walk or drive of about a mile and a half to the town.</p>
+
+<p>The little hamlet of Scapa, incidentally, from which the Flow takes its name,
+assumed importance during the war as a seaplane station, and is the scene of an
+old custom long forgotten, which is related rather amusingly in a volume on
+Orkney by a Rev. John Brand, dated 1701. He writes: "In Scapha about a mile
+from Kirkwal to South-West, it is said there was kept a large and ancient Cup,
+which they say belonged to St. Magnus, King of Norway, who first instructed
+them in the principles of the Christian religion and founded the Church of Kirkwal,
+with which full of some strong drink their Bishops at their first landing were
+presented; which, if he drank it out, they highly praised him, and made themselves
+to believe, that they should have many good and fruitful years in his time." He
+adds rather regretfully: "The Countrey to this Day have the tradition of this,
+but we did not see the cup; nor could we learn where it was." The fact that<span class="pagenum"><a name="Page_32" id="Page_32">[32]</a></span>
+the Highland Park Distillery (the most northern distillery in the British Isles)
+is on the upper Scapa road rather tends to confirm the legend!</p>
+
+<div class="figcenter" style="width: 549px;">
+<a id="STORES"></a><img src="images/i_053a.jpg" width="549" height="365" alt="" />
+<div class="caption"><span class="smcap">Loading Stores at Scapa Pier.</span></div>
+</div>
+
+<div class="figcenter" style="width: 543px;">
+<a id="WIDEFORD"></a><img src="images/i_053b.jpg" width="543" height="356" alt="" />
+<div class="caption"><span class="smcap">Wideford Hill and the "Peerie Sea."</span></div>
+</div>
+
+<p>Conveyances known locally as "machines" (they do not speak of traps or
+chars-&agrave;-bancs in Orkney) are always available to convey one to Kirkwall from
+the Pier, and anyone who has travelled over that bumpy road in one of these
+vehicles will not forget the experience!</p>
+
+<div class="figcenter" style="width: 541px;">
+<a id="KIRKWALLHARBOUR"></a><img src="images/i_054.jpg" width="541" height="354" alt="" />
+<div class="caption"><span class="smcap">Kirkwall Harbour from the Cathedral Tower.</span></div>
+</div>
+
+<p>Arrived in Kirkwall and suitably refreshed (let me recommend the Ayre
+Hotel of many pleasant memories), the most striking building which meets the
+eye, and which dominates the town, is the Cathedral of St. Magnus. Kirkwall,
+as its name signifies (Kirkevaag or Kirk Voe), is the bay of the church, although
+the original church from which the town takes its name was not that of St. Magnus.
+Founded before the middle of the twelfth century, it is a very fine example of
+Gothic architecture, which, fortunately, owing to its remoteness, escaped the zeal
+of the Reformers, and remains to-day a stately witness of the Norse warriors of
+old, who played such a prominent and adventurous part in the history of Orkney.<span class="pagenum"><a name="Page_34" id="Page_34">[34]</a></span>
+Near by are the Bishop's and Earl's Palaces, both also eloquent relics of the days
+when feasting and fighting were the main preoccupations of the Norse Jarls,
+whose exploits are recounted so graphically in the "Orkneyinga Saga."</p>
+
+<div class="figcenter" style="width: 548px;">
+<a id="ALBERTST"></a><img src="images/i_055.jpg" width="548" height="415" alt="" />
+<div class="caption"><span class="smcap">Albert Street, Kirkwall.</span></div>
+</div>
+
+<div class="figcenter" style="width: 294px;">
+<a id="STMAGNUS"></a><img src="images/i_056.jpg" width="294" height="412" alt="" />
+<div class="caption"><span class="smcap">St. Magnus Cathedral from the Earl's Palace.</span></div>
+</div>
+
+<p>Kirkwall during the war was an examination base, and hundreds of craft
+of all nationalities passed through the harbour to be searched for contraband
+of war. Later, after the Armistice, it became the headquarters of our own and
+the American Mine Clearance Service, and the advent of four or five thousand
+American sailors contributed further to the prosperity and enlivenment of the
+town. Baseball, for example, and the "jazz," had not hitherto penetrated so
+far north as Orkney, and dancing soon became almost as great an obsession
+amongst the fair maidens of Kirkwall as it was further south.</p>
+
+<p>To-day Kirkwall is again outwardly the same quiet town it was prior to<span class="pagenum"><a name="Page_36" id="Page_36">[36]</a></span>
+1914, but the infusion of new ideas and modes of life, which was inevitable from
+contact with so many of our own and American people, has produced many
+changes of mental and social outlook, and in no town will the years 1914-1919
+be remembered for their historical significance more than in the capital of the
+Orkney Islands.</p>
+
+<div class="figcenter" style="width: 542px;">
+<a id="OLDHOUSES"></a><img src="images/i_057.jpg" width="542" height="344" alt="" />
+<div class="caption"><span class="smcap">Old Houses in Kirkwall.</span></div>
+</div>
+
+
+<h3>STROMNESS</h3>
+
+<p>Stromness, situate at the western extremity of the mainland, is next to Kirkwall
+in size, and is in many respects the rival of the capital. Its position did not give
+it the same importance as Kirkwall during the war, although it was a convenient
+centre for some of the subsidiary activities of the Base. For a considerable
+period it was the headquarters of the Western Patrol, and the various building
+operations, including the wharf at Lyness and the Air Stations at Houton and
+Scapa, were supervised from the office of the Civil Engineer at Stromness. The<span class="pagenum"><a name="Page_37" id="Page_37">[37]</a></span>
+accessibility of Stromness to the sea through Hoy and Burra Sounds, and the
+probability of submarine attacks on the Fleet through these channels, rendered
+defensive measures an imperative necessity, and at the time of the Armistice a triple
+series of boom defences, with the additional safeguards of sunken ships and minefields,
+rendered ingress a practical impossibility. One of the most remarkable
+of these defences was the Clestron Barrier between the island of Graemsay and
+Clestron. This was constructed of conical frameworks of steel rails, which were
+placed in position with their bases resting on the bottom of the channel, an operation
+rendered the more difficult by the tides which sweep around these shores,
+which give Stromness its name (the ness of the "strom" or current).</p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="STROMNESS"></a><img src="images/i_058.jpg" width="539" height="279" alt="" />
+<div class="caption"><span class="smcap">Stromness from the Sea.</span></div>
+</div>
+
+<p>Stromness is a picturesquely situated little town, with its straggling houses,
+rising straight from the water's edge, and its rugged coast scenery. The traveller
+from Kirkwall, after traversing fifteen miles of somewhat monotonous road, is
+suddenly confronted with the quiet town lying below him in a landlocked bay,
+with the heights of Hoy rising beyond and adding grandeur to the beauty of the
+scene.</p>
+
+<div class="figcenter" style="width: 692px;">
+<a id="HOUTANBAS"></a><img src="images/i_059.jpg" width="692" height="396" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Houton Bay Air Station.</span></div>
+</div>
+
+<p>Amongst the quaint houses in its zigzag mile-long street is one of noteworthy
+interest, being the house in which Sir Walter Scott wrote the notes of his Orkney<span class="pagenum"><a name="Page_38" id="Page_38">[38]</a></span>
+novel, "The Pirate," most of the characters in which are drawn from people
+who actually lived in Stromness.</p>
+
+<div class="figcenter" style="width: 444px;">
+<a id="CLESTRON"></a><img src="images/i_060.jpg" width="444" height="219" alt="" />
+<div class="caption"><span class="smcap">The Clestron Barrier, Stromness.</span></div>
+</div>
+
+<p>Stromness was a popular "week-end" resort for those who, during the
+war and afterwards, were fortunate enough to get leave, there being an excellent
+and modern hotel, with good fishing in the lochs, and a nine-hole golf course in
+the near neighbourhood. Close at hand, too, are many places of interest to the
+historian and antiquarian, which are briefly noticed in the following pages.</p>
+
+
+<h3>THE STANDING STONES OF STENNIS</h3>
+
+<p>"The Standing Stones" are the most noteworthy antiquarian relic in the
+county of Orkney, and their origin, like those of Stonehenge, is wrapped in
+obscurity. They were probably erected by the early Celtic inhabitants of Orkney,
+possibly as sacrificial spots, and they were undoubtedly standing when the Norsemen
+overran the islands in the ninth century. Standing on the narrow little
+peninsula in the midst of the Loch of Stennis, and seen as the shadows of evening
+are falling, they are impressive in their lonely solemnity, and insensibly carry
+one back to the dawn of history in these islands&mdash;to days of sacrificial rites and
+strange matrimonial ceremonies, to the worship of Thor and Woden.</p>
+
+<p><span class="pagenum"><a name="Page_40" id="Page_40">[40]</a></span></p>
+
+<div class="figcenter" style="width: 545px;">
+<a id="STENNIS"></a><img src="images/i_061a.jpg" width="545" height="317" alt="" />
+<div class="caption"><span class="smcap">The Standing Stones of Stennis.</span></div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="BRODGAR"></a><img src="images/i_061b.jpg" width="544" height="317" alt="" />
+<div class="caption"><span class="smcap">The Ring of Brodgar.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_41" id="Page_41">[41]</a></span></p>
+
+<div class="figcenter" style="width: 488px;">
+<a id="MAESHOWE"></a><img src="images/i_062a.jpg" width="488" height="256" alt="" />
+<div class="caption"><span class="smcap">The Tumulus of Maeshowe.</span></div>
+</div>
+
+<div class="figcenter" style="width: 493px;">
+<a id="MAESHOWE2"></a><img src="images/i_062b.jpg" width="493" height="323" alt="" />
+<div class="caption"><span class="smcap">The Entrance to Maeshowe.</span></div>
+</div>
+
+
+<h3>MAESHOWE</h3>
+
+<p>A mile or two from Stennis stands the celebrated Tumulus of Maeshowe. This
+is a conical-shaped mound rising to a height of about 35 feet, and surrounded by<span class="pagenum"><a name="Page_42" id="Page_42">[42]</a></span>
+a moat. The interior is approached by a long, narrow passage, leading into a
+central stone chamber about 15 feet square, from which a number of crypts or
+cells branch off at the sides. On the walls are inscribed a number of runes, of
+which, as one humourist observed, "several professors have given as many
+translations, apparently all different." There is certainly considerable diversity
+of opinion as to the age and origin of the mound, but it seems to be generally
+accepted that it was originally the chambered tomb of some chieftain, dating
+from early Celtic times.</p>
+
+<div class="figcenter" style="width: 546px;">
+<a id="HOYRD"></a><img src="images/i_063.jpg" width="546" height="317" alt="" />
+<div class="caption"><span class="smcap">A Winding Road in Hoy.</span><br />
+<span class="smallc">(Pegal Burn.)</span></div>
+</div>
+
+
+<h3>HOY</h3>
+
+<p>The island of Hoy lies on the western side of the Flow, and, as most of the Base
+ships were anchored in its vicinity, it was the island which became the most
+familiar to and frequented by those going to the "beach" for recreation and
+exercise. The names of Long Hope, Lyness, Melsetter, North Ness, are as familiar
+to the many thousands of naval men who spent so long at Scapa, as are the Strand
+and Charing Cross to Londoners. Fortunately, Hoy is perhaps the most interesting<span class="pagenum"><a name="Page_43" id="Page_43">[43]</a></span>
+and picturesque of the Orkney Islands, and some of its hill and cliff scenery is
+amongst the finest in Great Britain, whilst the sportsman, the botanist, and the
+geologist can find ample material for their various pursuits.</p>
+
+<p>Hoy will probably show more permanent evidences of the "naval invasion"
+of Scapa Flow than any of the other islands, as it has now become, at Lyness,
+the headquarters of the permanent peace-time naval establishment at Scapa Flow.
+At Lyness there are the makings of a miniature dockyard, with a wharf accommodating
+vessels of 30 feet draught, slipway, storesheds, oil, fuel, and petrol
+dep&ocirc;ts, and a reservoir for fresh water supply, which, in the event of war, would be
+at once available for meeting the requirements of the Fleet. Such an establishment
+would have been of immense value at the outbreak of the present war, and,
+indeed, had been contemplated for some years prior to 1914.</p>
+
+
+<div class="figcenter" style="width: 537px;">
+<a id="WARDHILL"></a><img src="images/i_064.jpg" width="537" height="139" alt="" />
+<div class="caption"><span class="smcap">Ward Hill and Graemsay Island from the Sea.</span></div>
+</div>
+
+
+<h3>WARD HILL, HOY</h3>
+
+<p>Ward Hill is the highest hill in Orkney (1,556 feet), and from its summit on
+a clear day a magnificent panorama of the Orkney Islands unfolds itself, lying
+at one's feet like "the scattered fragments of some ingenious and parti-coloured
+toy map," whilst on the further side of the Pentland Firth the coast of Scotland
+is clearly defined as far as Cape Wrath. During the war the whole of the Grand
+Fleet could be seen in the Flow, and it seemed hard to realise that those small
+and insignificant specks as they appeared in the distance lay as a "sure shield of
+Empire" between our nation and the domination of the German Eagle.</p>
+
+<p><span class="pagenum"><a name="Page_44" id="Page_44">[44]</a></span></p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="WARDHILL2"></a><img src="images/i_065a.jpg" width="544" height="341" alt="" />
+<div class="caption"><span class="smcap">Ward Hill: The Road To Rackwick.</span></div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="WARDHILL3"></a><img src="images/i_065b.jpg" width="544" height="333" alt="" />
+<div class="caption"><span class="smcap">Ward Hill from the East.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_45" id="Page_45">[45]</a></span></p>
+
+<div class="figcenter" style="width: 388px;">
+<a id="OMHOY"></a><img src="images/i_066.jpg" width="388" height="504" alt="" />
+<div class="caption"><span class="smcap">The Old Man of Hoy.</span></div>
+</div>
+
+
+<h3>THE OLD MAN OF HOY</h3>
+
+<p>The lonely pillar of rock standing well out on the western coast of Hoy is
+one of the best-known "sights" of Orkney. It stands 450 feet above the sea
+(as high as St. Paul's Cathedral) in one of the most inaccessible parts of the coast,
+but the scene repays the hard walk over the moors which a visit to the rock
+entails. The photo happens to show the features of the "Old Man" quite
+distinctly.</p>
+
+<p><span class="pagenum"><a name="Page_46" id="Page_46">[46]</a></span></p>
+
+
+<h3>THE DWARFIE STONE</h3>
+
+<p>The Dwarfie Stone is one of the strange relics of antiquity which abound in
+Orkney. It is a mass of sandstone about 30 feet in length, 14 feet in breadth, and
+from 2 to 6 feet in height, and lies in a lonely valley at the foot of Ward Hill. It
+has been hollowed out on either side of the entrance door shown in the photo into
+two chambers, each with a stone bed, with a hole in the roof to serve as a window or
+chimney. Nothing appears to be known of the origin or purpose of the stone, but a
+rather quaint theory is brought forward in an old book on Orkney (1701), as follows:</p>
+
+<blockquote>
+
+<p>"Who hewed this stone, or for what use it was, we could not learn, the
+Common Tradition among the People is, That a giant with his wife lived in this
+Isle of Hoy, who had this stone for their Castle. But I would rather think, seeing
+it could not accommodate any of a Gigantick stature, that it might be for the use of
+some Dwarf, as the name seems to import, or it being remote from any House might
+be the retired Cell of some Melancholick Hermite. The stone also may be called the
+Dwarfie Stone, per Antiphrasin or by way of Opposition it being so very great."</p></blockquote>
+
+<div class="figcenter" style="width: 544px;">
+<a id="DWARFIE"></a><img src="images/i_067.jpg" width="544" height="332" alt="" />
+<div class="caption"><span class="smcap">The Dwarfie Stone.</span></div>
+</div>
+
+<p>Sir Walter Scott refers to the stone at some length in his novel "The Pirate,"
+the scene of which is laid in the Orkneys and Shetlands, and which will be found
+of interest to the student of Orkney traditions and history.</p>
+
+<p><span class="pagenum"><a name="Page_47" id="Page_47">[47]</a></span></p>
+
+
+<h3>LYNESS</h3>
+
+<div class="figleft" style="width: 345px;">
+<a id="NEWSTONEWALL"></a><img src="images/i_068a.jpg" width="345" height="210" alt="" />
+<div class="caption"><span class="smcap">The New Stone Wall and Pier, Lyness.</span></div>
+</div>
+
+<div class="figright" style="width: 343px;">
+<a id="CROFTS"></a><img src="images/i_068b.jpg" width="343" height="258" alt="" />
+<div class="caption"><span class="smcap">Crofts near Lyness.</span></div>
+</div>
+
+<p>Following the rough road on the east coast of Hoy from Ward Hill, by way
+of Pegal Burn, one reaches Lyness, in pre-war days a few scattered crofts, and
+now the Naval Base in Orkney.
+The stone wharf, built by Messrs.
+Kinnear and Moodie, of Glasgow,
+is now only just nearing completion,
+and the other buildings
+(torpedo and paravane dep&ocirc;ts,
+petrol tanks, store sheds, etc.)
+were not available in time to be
+of much value during the war,
+but they will be ready for the
+next! Some idea of the difficulties
+with which the contractors
+had to contend will be realised, when it is remembered that every ton of material
+had to be brought by rail and sea from the south, during a time when, owing to
+the submarine menace and the
+shortage of shipping, it was often
+months before delivery of stores
+could be made. The work was
+frequently completely held up
+by non-delivery of a machine or
+replacement, whilst the difficulties
+of recruiting labour in such
+a desolate spot as the Orkneys
+were a great handicap. On
+many days work had to be
+suspended owing to gales, whilst
+in winter operations were only
+practicable during the few
+hours of daylight available. The works, incidentally, were responsible for the
+introduction of the first train into Orkney!</p>
+
+<p><span class="pagenum"><a name="Page_48" id="Page_48">[48]</a></span></p>
+
+<div class="figcenter" style="width: 547px;">
+<a id="EXCAVATIONS"></a><img src="images/i_069a.jpg" width="547" height="336" alt="" />
+<div class="caption"><span class="smcap">Excavations at Lyness in Connection with the Building of the Wharf.</span></div>
+</div>
+
+<div class="figcenter" style="width: 542px;">
+<a id="TRAIN"></a><img src="images/i_069b.jpg" width="542" height="324" alt="" />
+<div class="caption"><span class="smcap">The First Train in Orkney.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_49" id="Page_49">[49]</a></span></p>
+
+
+<h3>CROCKNESS</h3>
+
+<div class="figleft" style="width: 345px;">
+<a id="SUNSET"></a><img src="images/i_070a.jpg" width="345" height="232" alt="" />
+<div class="caption"><span class="smcap">Sunset over the Martello Tower, Crockness.</span></div>
+</div>
+
+<p>Crockness lies a little beyond Lyness, to the south, and is chiefly noteworthy
+for its Martello Tower, which, with that at Hackness on the further side of Long
+Hope Bay, was erected during
+the Napoleonic Wars, and completed
+in 1818 as a protection
+for the harbour. It was in Long
+Hope Harbour that merchantmen
+bound for America and the
+Continent assembled to await
+convoy, and it is curious that
+exactly one hundred years later
+history has repeated itself, and
+that during the war just concluded
+the same system of convoy
+was adopted from Kirkwall,
+into which harbour all neutral vessels were sent for examination and convoy.
+It is rather characteristic of our nation that both the Martello Towers and
+the works at Lyness were completed some time after the Napoleonic Wars and
+the European War respectively
+were over!</p>
+
+<div class="figright" style="width: 344px;">
+<a id="MARTELLO"></a><img src="images/i_070b.jpg" width="344" height="250" alt="" />
+<div class="caption"><span class="smcap">The Martello Tower, Crockness.</span></div>
+</div>
+
+<p>The Towers are very solidly
+built structures, with gun mountings
+on top, and underground
+cellars for stowing ammunition,
+etc., but they have never apparently
+been of any practical
+use. It is related that it was
+not until the present war that a
+monthly payment, which originated
+in 1818, to a crofter family
+for certain services rendered to
+the original occupants of the
+Tower, was at length discontinued, when it was discovered that the Tower had been
+disused for some generations! but the accuracy of the story cannot be vouched for.</p>
+
+<p><span class="pagenum"><a name="Page_50" id="Page_50">[50]</a></span></p>
+
+<div class="figcenter" style="width: 487px;">
+<a id="MARTELLO2"></a><img src="images/i_071.jpg" width="487" height="675" alt="" />
+<div class="caption"><span class="smcap">View looking through the Martello Tower, Crockness, towards Long Hope.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_51" id="Page_51">[51]</a></span></p>
+
+
+<h3>LONG HOPE</h3>
+
+<p>Continuing by the road from Crockness, the village of Melsetter is passed on
+the road to Long Hope.</p>
+
+<p>At Melsetter is the very fine residence of Mr. and Mrs. Middlemore, whose
+hospitality was always open to the many naval officers who used to call there.
+The visitors' book among many famous names contains those of the King and
+the Prince of Wales, and Admirals Jellicoe and Beatty. A William Morris
+Tapestry in one of the reception rooms is noteworthy as recording the exploits of
+"Sir Gawaine of Orkney," one of the Knights of the Round Table.</p>
+
+<div class="figcenter" style="width: 543px;">
+<a id="MELSETTER"></a><img src="images/i_072.jpg" width="543" height="264" alt="" />
+<div class="caption"><span class="smcap">Melsetter&mdash;on the Road from Lyness to Long Hope.</span></div>
+</div>
+
+<p>Long Hope Bay during the war was the headquarters of the auxiliaries of the
+Grand Fleet, and never in its history were so many vessels of such varied types
+assembled in the harbour. The village of Long Hope, where there is a good pier,
+naturally became much frequented by officers and men from the ships, and
+eventually a commodious Y.M.C.A. was erected, which did much useful work.
+"Tea on the beach" was always a pleasant change from ship life (and tinned milk!),
+and the Post Office at Long Hope became a favourite rendezvous for informal
+tea-parties. (Possibly the attractions of the fair postmistress and her sister
+had something to do with this!)</p>
+
+<p>Incidentally, a writer on Orkney remarks that "there is a considerable Celtic
+element in the population of South Walls brought by some seventy-one Highlanders,<span class="pagenum"><a name="Page_52" id="Page_52">[52]</a></span>
+who, evicted from Strathnaver to make room for sheep, settled in the parish
+between 1788 and 1795, and who have thrown in a dash of good looks not so
+common in other parts of the group." The comment seems hardly fair to the
+rest of Orkney, however true it may be with regard to Walls.</p>
+
+<div class="figcenter" style="width: 546px;">
+<a id="LONGHOPE"></a><img src="images/i_073a.jpg" width="546" height="291" alt="" />
+<div class="caption"><span class="smcap">Long Hope Pier and Post Office.</span></div>
+</div>
+
+<div class="figcenter" style="width: 542px;">
+<a id="LONGHOPE2"></a><img src="images/i_073b.jpg" width="542" height="289" alt="" />
+<div class="caption"><span class="smcap">Long Hope Hotel.</span></div>
+</div>
+
+<p>The inn at Long Hope (where the King stayed on one of his visits to the<span class="pagenum"><a name="Page_53" id="Page_53">[53]</a></span>
+Fleet) was transformed into the office of the Admiral Commanding the Orkneys and
+Shetlands, and a wireless station was erected alongside. It has now (1921) reverted
+to its pre-war condition, much to the gratification of the Long Hope inhabitants.</p>
+
+
+<div class="figcenter" style="width: 543px;">
+<a id="KIRKHOPE"></a><img src="images/i_074a.jpg" width="543" height="176" alt="" />
+<div class="caption"><span class="smcap">Kirk Hope, South Walls.</span></div>
+</div>
+
+<div class="figcenter" style="width: 537px;">
+<a id="CANTICK"></a><img src="images/i_074b.jpg" width="537" height="276" alt="" />
+<div class="caption"><span class="smcap">Cantick Lighthouse, South Walls.</span></div>
+</div>
+
+<h3>KIRK HOPE AND CANTICK</h3>
+
+<p>The road from Long Hope leads past the Y.M.C.A. to the lonely little cemetery
+(shown on the left of the photo above) at Kirk Hope, and thence to the lighthouse
+at Cantick Head. A fine view of the islands is obtained from the Lighthouse
+Tower, and the visitors' book contains the names of R. L. Stevenson and
+Prince Albert, amongst others of interest.</p>
+
+<p><span class="pagenum"><a name="Page_54" id="Page_54">[54]</a></span></p>
+
+
+<h3>PEATS</h3>
+
+<p>As there are practically no trees in Orkney, wood is not available for fuel, but
+fortunately peat is very plentiful, and is used almost universally for heating
+purposes. The peats are cut in the spring, and a peculiar-shaped form of spade,
+known as a toysker, is employed to cut the turfs, which are stacked on the side
+of the bank as shown in the
+photograph. After a few weeks
+the peats are "raised"&mdash;<i>i.e.</i>, set
+on end&mdash;and arranged in small
+heaps, so that they may dry
+more thoroughly. They are then
+carted home and stacked, each
+croft possessing its stack for the
+winter months.</p>
+
+<div class="figleft" style="width: 347px;">
+<a id="DIGGING"></a><img src="images/i_075a.jpg" width="347" height="198" alt="" />
+<div class="caption"><span class="smcap">Digging the Peats&mdash;Hoy.</span></div>
+</div>
+
+<p>During the war parties of
+men from the ships could often
+be seen assisting the crofters in
+digging the peats&mdash;such assistance being very welcome at a time when labour
+was scarce and there was plenty of work to be done on the land. A day at
+the peats can be recommended to anyone who wants to know what it is to feel
+really tired after a hard day's work!</p>
+
+<div class="figcenter" style="width: 596px;">
+<a id="CARTING"></a><img src="images/i_075b.jpg" width="596" height="269" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Carting Home the Peats.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_55" id="Page_55">[55]</a></span></p>
+
+
+<h3>PRIMITIVE METHODS OF AGRICULTURE IN ORKNEY</h3>
+
+<div class="figcenter" style="width: 490px;">
+<a id="HORSE"></a><img src="images/i_076a.jpg" width="490" height="239" alt="" />
+<div class="caption"><span class="smcap">Horse and Ox Harrowing.</span></div>
+</div>
+
+<div class="figleft" style="width: 344px;">
+<a id="LOADING"></a><img src="images/i_076b.jpg" width="344" height="202" alt="" />
+<div class="caption"><span class="smcap">Loading Sea-Weed for Manure.</span></div>
+</div>
+
+<div class="figright" style="width: 344px;">
+<a id="ORKNEYCART"></a><img src="images/i_076c.jpg" width="344" height="192" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">An Orkney Cart.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_56" id="Page_56">[56]</a></span></p>
+
+<div class="figcenter" style="width: 542px;">
+<a id="STRAWCHAIRS"></a><img src="images/i_077.jpg" width="542" height="400" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Making Straw-backed Chairs, Orkney.</span></div>
+</div>
+
+<p>The primitive cottages which prevailed in Orkney, until a few years ago, are
+gradually giving way to larger and more substantial dwellings, but some of the
+crofts are still reminiscent of very early times, consisting only of a "but and a
+ben," with the beds let into the wall, after the style of the French cupboard beds
+of Brittany, and with the floors made of stone flags.</p>
+
+<hr class="tb" />
+
+<p>Orkney has several cottage industries, no doubt due to the long winter
+evenings and the inclement weather. Amongst these is rush plaiting for the
+famous "Orkney chairs," which, with their comfortable rush backs and seats and
+hoods, are familiar to all who have been in Orkney.</p>
+
+<p><span class="pagenum"><a name="Page_57" id="Page_57">[57]</a></span></p>
+
+<div class="figcenter" style="width: 682px;">
+<a id="INTERIOR"></a><img src="images/i_078.jpg" width="682" height="484" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Interior of an Orkney Cottage.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_58" id="Page_58">[58]</a></span></p>
+
+
+<h3>SPINNING</h3>
+
+<p>Spinning is another occupation of the winter evenings, which has been widely
+revived recently in Orkney owing to the high price of wool. The Orkneys and
+Shetlands are noted for the softness and quality of their wool, and the various
+processes of teasing, carding, spinning and dyeing are all carried out on the
+crofts.</p>
+
+<div class="figcenter" style="width: 346px;">
+<a id="SPINNING"></a><img src="images/i_079.jpg" width="346" height="460" alt="" />
+<div class="caption"><span class="smcap">Spinning.</span></div>
+</div>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_59" id="Page_59">[59]</a></span></p>
+
+
+
+
+<h2><a name="PART_III" id="PART_III"></a>PART III<br /><br />
+<span class="smallc">THE NAVY AT SCAPA FLOW</span></h2>
+
+<div class="figcenter" style="width: 536px;">
+<a id="BATTLESQUADRON"></a><img src="images/i_080.jpg" width="536" height="366" alt="" />
+<div class="caption"><span class="smcap">Battle Squadron Exercising in the Flow.</span></div>
+</div>
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_60" id="Page_60">[60]</a></span></p>
+
+
+<p class="largec"><a name="THE_NAVY_AT_SCAPA_FLOW" id="THE_NAVY_AT_SCAPA_FLOW"></a>THE NAVY AT SCAPA FLOW</p>
+
+
+<div>
+  <img class="drop-cap" src="images/i_082.png" width="72" height="78" alt="T" />
+</div>
+
+<p class="drop-cap"><span class="smcap">The</span> photographs which follow depict various aspects of the work
+and play of the Grand Fleet and the Auxiliaries at Scapa, and are
+more or less self-explanatory. Owing to limitations of space, it is
+not possible to deal adequately with a subject on which so many
+volumes have been written, but an effort has been made to include
+as many types as possible of the varied units of the Grand Fleet, and to depict
+the various phases of the everyday life and recreations of the personnel of the Fleet.
+Owing to the strict photographic censorship during the war, it was not practicable
+to take many subjects which would otherwise have found a place in this record,
+but those which are shown in the following pages will give the reader some little
+idea of how the Navy "carried on" during the eventful years 1914-1919.</p>
+
+<p><span class="pagenum"><a name="Page_62" id="Page_62">[62]</a></span></p>
+
+<div class="figcenter" style="width: 692px;">
+<a id="ADMIRALBEATTY"></a><img src="images/i_083.jpg" width="692" height="470" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Admiral of the Fleet Earl Beatty on the Quarterdeck of H.M.S. "Queen Elizabeth."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_63" id="Page_63">[63]</a></span></p>
+
+<div class="figcenter" style="width: 683px;">
+<a id="QE"></a><img src="images/i_084.jpg" width="683" height="398" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Queen Elizabeth."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_64" id="Page_64">[64]</a></span></p>
+
+<div class="figcenter" style="width: 543px;">
+<a id="REVENGE"></a><img src="images/i_085a.jpg" width="543" height="187" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Revenge" and Ships of the First Battle Squadron at Scapa.</span></div>
+</div>
+
+<div class="figleft" style="width: 296px;">
+<a id="RAMILIES"></a><img src="images/i_085b.jpg" width="296" height="176" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Ramillies."</span></div>
+</div>
+
+<div class="figright" style="width: 296px;">
+<a id="RESOLUTION"></a><img src="images/i_085c.jpg" width="296" height="173" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Resolution."</span></div>
+</div>
+
+<div class="figcenter" style="width: 343px;">
+<a id="ROYALOAK"></a><img src="images/i_085d.jpg" width="343" height="270" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Royal Oak."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_65" id="Page_65">[65]</a></span></p>
+
+<div class="figcenter" style="width: 686px;">
+<a id="FOURTHSQUADRON"></a><img src="images/i_086.jpg" width="686" height="429" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Fourth Battle Squadron exercising in the Flow.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_66" id="Page_66">[66]</a></span></p>
+
+<div class="figcenter" style="width: 546px;">
+<a id="ORION"></a><img src="images/i_087a.jpg" width="546" height="326" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Battleships "Orion," "Monarch," and "Conqueror" in the Flow.</span></div>
+</div>
+
+<div class="figcenter" style="width: 546px;">
+<a id="COLOSSUS"></a><img src="images/i_087b.jpg" width="546" height="333" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Battleships "Colossus," "St. Vincent," and "Bellerophon" exercising in the Flow.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_67" id="Page_67">[67]</a></span></p>
+
+<div class="figcenter" style="width: 734px;">
+<a id="RENOWN"></a><img src="images/i_088a.jpg" width="734" height="224" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Renown."</span><br />
+<span class="smallc">(In which the Prince of Wales made his recent visit to the Colonies.)</span></div>
+</div>
+
+<div class="figcenter" style="width: 735px;">
+<a id="TIGER"></a><img src="images/i_088b.jpg" width="735" height="275" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Tiger": A Famous Ship of the Battle Cruiser Squadron.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_68" id="Page_68">[68]</a></span></p>
+
+<div class="figleft" style="width: 347px;">
+<a id="WHITESHED"></a><img src="images/i_089a.jpg" width="347" height="257" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Whitshed."</span><br />
+<span class="smallc">(One of our Latest Type Destroyers.)</span></div>
+</div>
+
+<div class="figleft" style="width: 349px;">
+<a id="BARHAM"></a><img src="images/i_089b.jpg" width="349" height="220" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Barham."</span></div>
+</div>
+
+<div class="figright" style="width: 348px;">
+<a id="EMPERORINDIA"></a><img src="images/i_089c.jpg" width="348" height="551" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Emperor of India."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_69" id="Page_69">[69]</a></span></p>
+
+<div class="figcenter" style="width: 537px;">
+<a id="CALLIOPE"></a><img src="images/i_090a.jpg" width="537" height="236" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Light Cruiser "Calliope" at Scapa.</span></div>
+</div>
+
+<div class="figcenter" style="width: 539px;">
+<a id="YARMOUTH"></a><img src="images/i_090b.jpg" width="539" height="362" alt="" />
+<div class="caption"><span class="smcap">"Make and Mend" on Light Cruiser "Yarmouth."</span><br />
+<span class="smallc">(Note the bins for "Bones" and "Pig Food.")</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_70" id="Page_70">[70]</a></span></p>
+
+<div class="figcenter" style="width: 494px;">
+<a id="FURIOUS"></a><img src="images/i_091.jpg" width="494" height="640" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">The Deck of an Aeroplane Carrier, H.M.S. "Furious."</span></div>
+</div>
+
+
+<div class="figleft" style="width: 367px;">
+<span class="pagenum"><a name="Page_71" id="Page_71">[71]</a></span>
+<a id="G13"></a><img src="images/i_092a.jpg" width="367" height="565" alt="" />
+<div class="captionr">Humphrey Joel.</div>
+<div class="caption"><span class="smcap">Submarine "G 13" alongside H.M.S. "Queen Elizabeth."</span></div>
+</div>
+
+<div class="figright" style="width: 294px;">
+<a id="K16"></a><img src="images/i_092b.jpg" width="294" height="252" alt="" />
+<div class="caption"><span class="smcap">Submarine "K 16" under way in the
+Flow.</span></div>
+</div>
+
+<div class="figright" style="width: 294px;">
+<a id="K7"></a><img src="images/i_092c.jpg" width="294" height="238" alt="" />
+<div class="caption"><span class="smcap">Officers of Submarine "K 7" in the
+Conning Tower.</span></div>
+</div>
+
+
+
+<div class="figcenter" style="width: 690px;">
+<span class="pagenum"><a name="Page_72" id="Page_72">[72]</a></span>
+<a id="MARINES"></a><img src="images/i_093.jpg" width="690" height="460" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Marines Drilling on the Quarterdeck of a Battleship.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_73" id="Page_73">[73]</a></span></p>
+
+<div class="figcenter" style="width: 685px;">
+<a id="SUNDAYINSPECTION"></a><img src="images/i_094.jpg" width="685" height="509" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">General View of Captain's Sunday Morning Inspection.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_74" id="Page_74">[74]</a></span></p>
+
+<div class="figcenter" style="width: 691px;">
+<a id="TIDYING"></a><img src="images/i_095.jpg" width="691" height="503" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">"Tidying Up" for Inspection.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_75" id="Page_75">[75]</a></span></p>
+
+<div class="figcenter" style="width: 690px;">
+<a id="EXERCISING2"></a><img src="images/i_096.jpg" width="690" height="465" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Officers and Men exercising on the Quarterdeck.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_76" id="Page_76">[76]</a></span></p>
+
+<div class="figcenter" style="width: 690px;">
+<a id="HOLYSTONING"></a><img src="images/i_097.jpg" width="690" height="434" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">"Holystoning."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_77" id="Page_77">[77]</a></span></p>
+
+<div class="figcenter" style="width: 686px;">
+<a id="WASHINGDOWN"></a><img src="images/i_098.jpg" width="686" height="469" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Washing Down Decks.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_78" id="Page_78">[78]</a></span></p>
+
+<div class="figcenter" style="width: 692px;">
+<a id="STOKERS"></a><img src="images/i_099.jpg" width="692" height="505" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Stokers at Work.</span><br />
+<span class="smallc">(Over 4,000,000 tons of coal were supplied to the Fleet at Scapa from the
+outbreak of war to the date of Armistice.)</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_79" id="Page_79">[79]</a></span></p>
+
+<div class="figcenter" style="width: 683px;">
+<a id="CHURCH"></a><img src="images/i_100.jpg" width="683" height="505" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Church Service on H.M.S. "Queen Elizabeth."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_80" id="Page_80">[80]</a></span></p>
+
+<div class="figcenter" style="width: 592px;">
+<a id="HOSPITAL"></a><img src="images/i_101a.jpg" width="592" height="278" alt="" />
+<div class="caption"><span class="smcap">Hospital Ships at Scapa Flow.</span></div>
+</div>
+
+<div class="figcenter" style="width: 591px;">
+<a id="MAGIC"></a><img src="images/i_101b.jpg" width="591" height="231" alt="" />
+<div class="caption"><span class="smcap">H.M. Hospital Ship "Magic II.," afterwards renamed "Classic."</span></div>
+</div>
+
+<p class="pagenum"><a name="Page_81" id="Page_81">[81]</a></p>
+
+<div class="figcenter" style="width: 685px;">
+<a id="COTCASE"></a><img src="images/i_102.jpg" width="685" height="495" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Transferring a "Cot Case" from a Battleship to the Hospital Ship Drifter.</span><br />
+
+<span class="smallc">(The more serious cases from the Fleet were sent to the Hospital Ships&mdash;of which there were generally three or four at Scapa one of which,
+H.M.H.S. "Agadir," was set aside for infectious cases only. In addition to the drifter "Coryph&aelig;na," shown in the photograph, two
+other drifters were detached for Hospital Ship duties, named, rather suggestively, the "Golden Harp" and "Elysian Dawn!")</span>
+</div>
+</div>
+<p><span class="pagenum"><a name="Page_82" id="Page_82">[82]</a></span></p>
+
+<div class="figcenter" style="width: 694px;">
+<a id="DENTIST"></a><img src="images/i_103.jpg" width="694" height="518" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Dentist at Work on a Battleship (H.M.S. "Collingwood").</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_83" id="Page_83">[83]</a></span></p>
+
+<div class="figcenter" style="width: 538px;">
+<a id="IMPERIEUSE2"></a><img src="images/i_104a.jpg" width="538" height="238" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Imperieuse" with Fleet Mail Steamer "St. Ninian" and Mail Drifters
+from the Fleet alongside.</span></div>
+</div>
+
+<div class="figcenter" style="width: 541px;">
+<a id="STOLA"></a><img src="images/i_104b.jpg" width="541" height="344" alt="" />
+<div class="caption"><span class="smcap">Mail Boat "St. Ola" coming alongside H.M.S. "Victorious."</span></div>
+
+<div class="caption p2"><span class="smallc">(The "St. Ola" took the place of the "St. Ninian" during the last few months of the war, and mails
+were then distributed by H.M.S. "Victorious.")</span></div>
+
+<div class="caption p2"><span class="smallc">For the first three months of the war all mails for the Fleet were landed and distributed at Scapa Pier. In
+November 1914, a Branch Post Office was opened on H.M.S. "Imperieuse," where the mails and newspapers were
+sorted and despatched to the Fleet. Some idea of the volume of business transacted to the date of the Armistice
+can be gathered from the following figures: 42 million letters and parcels sorted and despatched; 85 million letters
+and parcels delivered; value of postal stamps sold, &pound;275.500.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_84" id="Page_84">[84]</a></span></p>
+
+<div class="figcenter" style="width: 689px;">
+<a id="MAILS"></a><img src="images/i_105.jpg" width="689" height="500" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Sorting Mails for the Fleet on H.M.S. "Imperieuse."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_85" id="Page_85">[85]</a></span></p>
+
+<div class="figcenter" style="width: 685px;">
+<a id="NEWSPAPERS"></a><img src="images/i_106.jpg" width="685" height="504" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">Distributing Newspapers for the Fleet (H.M.S. "Imperieuse.")</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_86" id="Page_86">[86]</a></span></p>
+
+<div class="figcenter" style="width: 548px;">
+<a id="DOCKYARD"></a><img src="images/i_107a.jpg" width="548" height="396" alt="" />
+<div class="caption"><span class="smcap">Dockyard Workmen leaving H.M.S. "Victorious" for Work in the Fleet.</span></div>
+</div>
+
+<div class="figcenter" style="width: 543px;">
+<a id="PINNACE"></a><img src="images/i_107b.jpg" width="543" height="316" alt="" />
+<div class="caption"><span class="smcap">Repairing a Steam Pinnace on the Slipway at Lyness.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_87" id="Page_87">[87]</a></span></p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="ENTERTAINMENT"></a><img src="images/i_108a.jpg" width="539" height="321" alt="" />
+<div class="caption"><span class="smcap">School Children's Entertainment on H.M.S. "Victorious."</span><br />
+<span class="small">(The Navy is renowned for its hospitality, and the above shows a group of school children and their teachers who were
+entertained to a cinema show and tea on board. Many of the children had never seen the "movies" before.)</span></div>
+</div>
+
+<div class="figcenter" style="width: 565px;">
+<a id="YOUNG"></a><img src="images/i_108b.jpg" width="565" height="355" alt="" />
+<div class="caption"><span class="smcap">Three of the Young Orcadian Guests.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_88" id="Page_88">[88]</a></span></p>
+
+<div class="figcenter" style="width: 688px;">
+<a id="COUPONS"></a><img src="images/i_109.jpg" width="688" height="505" alt="" />
+<div class="captionr">Imperial War Museum.</div>
+<div class="caption"><span class="smcap">"No Coupons Required."</span><br />
+<span class="smallc">(The work of victualling the Navy at Scapa was no small task, as the following figures of the monthly Fleet requirements indicate:
+Meat, 320 tons; potatoes, 800 tons; flour, 6,000 140-lb. bags; sugar, 1,500 120-lb. bags; bread, 80,000 lbs.)</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_89" id="Page_89">[89]</a></span></p>
+
+<div class="figleft" style="width: 253px;">
+<a id="SHALOT"></a><img src="images/i_110a.jpg" width="253" height="346" alt="" />
+<div class="caption"><span class="smcap">Crew of Drifter "Shalot."</span><br />
+<span class="smallc">(Attached to the Victualling Store Officer
+R.F.A. "Ruthenia.")</span></div>
+</div>
+
+<div class="figright" style="width: 245px;">
+<a id="LIFTING"></a><img src="images/i_110b.jpg" width="245" height="332" alt="" />
+<div class="caption"><span class="smcap">Lifting Chain Cables.</span></div>
+</div>
+
+<div class="figcenter" style="width: 543px;">
+<a id="MOORING"></a><img src="images/i_110c.jpg" width="543" height="309" alt="" />
+<div class="caption"><span class="smcap">Mooring Vessel "Recovery" at Scapa Flow.</span><br />
+<span class="smallc">(The mooring work of the Base was performed under the control of the Admiralty Port Officer, H.M.S. "Imperieuse."
+Amongst the mooring vessels which did useful work in laying and lifting moorings for the Fleet, in
+addition to the "Recovery" pictured above, should be mentioned the mooring craft "Strathmaree," "Ben
+Doran," "Ben Tarbet," and "Bullfrog.")</span>
+</div></div>
+
+<p><span class="pagenum"><a name="Page_90" id="Page_90">[90]</a></span></p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="PATUXENT"></a><img src="images/i_111a.jpg" width="544" height="374" alt="" />
+<div class="caption"><span class="smcap">U.S.S. "Patuxent" and "272" alongside H.M.S. "Victorious" for Repairs.</span></div>
+</div>
+
+<div class="figleft" style="width: 245px;">
+<a id="MINESWEEPER"></a><img src="images/i_111b.jpg" width="245" height="216" alt="" />
+<div class="caption"><span class="smcap">American Minesweeper in the Floating
+Dock for Repairs.</span></div>
+</div>
+
+<div class="figright" style="width: 249px;">
+<a id="DESTROYER"></a><img src="images/i_111c.jpg" width="249" height="273" alt="" />
+<div class="caption"><span class="smcap">A Damaged British Destroyer being
+repaired in the Dock.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_91" id="Page_91">[91]</a></span></p>
+
+<div class="figcenter" style="width: 502px;">
+<a id="BORODINO"></a><img src="images/i_112a.jpg" width="502" height="280" alt="" />
+<div class="caption"><span class="smcap">S.S. "Borodino" Junior Army and Navy Stores' Store-Ship with the Grand Fleet.</span></div>
+</div>
+
+<div class="figcenter" style="width: 498px;">
+<a id="BORODINO2"></a><img src="images/i_112b.jpg" width="498" height="268" alt="" />
+<div class="caption"><span class="smcap">Interior of Shop on S.S. "Borodino."</span><br />
+<span class="smallc">(The Junior Army and Navy Stores was one of the most popular "institutions" at Scapa, and from 1914 to 1919
+it was the great shopping centre of the Fleet. Almost every variety of article was stocked, from "an elephant
+to a shirt button," and in addition a hairdressing saloon and a laundry were installed.)</span></div>
+</div>
+<p><span class="pagenum"><a name="Page_92" id="Page_92">[92]</a></span></p>
+
+<div class="figcenter" style="width: 692px;">
+<a id="CABIN"></a><img src="images/i_113.jpg" width="692" height="519" alt="" />
+<div class="caption"><span class="smcap">A Corner of an Officer's Cabin.</span><br />
+<span class="smallc">(An officer's cabin is his exclusive "sanctum," and in this case the occupant appears to have been determined
+to keep in mind "the girls he left behind him!")</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_93" id="Page_93">[93]</a></span></p>
+
+
+<h3>THE LIGHTER SIDE OF LIFE AT SCAPA FLOW</h3>
+
+<div class="figleft" style="width: 268px;">
+<a id="FISHING"></a><img src="images/i_114a.jpg" width="268" height="196" alt="" />
+<div class="caption"><span class="smcap">Fishing for Sea-Trout.</span></div>
+</div>
+
+<div class="figright" style="width: 303px;">
+<a id="PICNIC"></a><img src="images/i_114b.jpg" width="303" height="196" alt="" />
+<div class="caption"><span class="smcap">A Ship's Picnic.</span></div>
+</div>
+
+<div class="figcenter" style="width: 586px;">
+<a id="BATHING"></a><img src="images/i_114c.jpg" width="586" height="261" alt="" />
+<div class="caption"><span class="smcap">A Bathing Party.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_94" id="Page_94">[94]</a></span></p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="CEMETERY"></a><img src="images/i_115a.jpg" width="544" height="234" alt="" />
+<div class="caption"><span class="smcap">The Naval Cemetery at Lyness.</span><br />
+<span class="smallc">(The Naval Cemetery at Lyness is situate on some rising ground overlooking the waters of the Flow. Here
+lie buried those who died whilst serving at Scapa, those who fell in the Battle of Jutland, and those
+who perished in the "Hampshire," "Vanguard" and other vessels. Their memory is perpetuated by
+the memorials which have been erected by their shipmates, some of which are here shown.)</span></div>
+</div>
+
+<div class="figleft" style="width: 198px;">
+<a id="HAMPSHIRE"></a><img src="images/i_115b.jpg" width="198" height="298" alt="" />
+<div class="caption"><span class="smcap">The "Hampshire" Memorial.</span></div>
+</div>
+
+<div class="figright" style="width: 197px;">
+<a id="CHINAMAN"></a><img src="images/i_115c.jpg" width="197" height="305" alt="" />
+<div class="caption"><span class="smcap">An Interesting Stone to the Memory
+of a Chinaman who died at Scapa.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_95" id="Page_95">[95]</a></span></p>
+
+<div class="figleft" style="width: 288px;">
+<a id="MALAYA"></a><img src="images/i_116a.jpg" width="288" height="549" alt="" />
+<div class="caption"><span class="smcap">The "Malaya" Memorial.</span></div>
+</div>
+
+<div class="figright" style="width: 289px;">
+<a id="VANGUARD"></a><img src="images/i_116b.jpg" width="289" height="552" alt="" />
+<div class="caption"><span class="smcap">The "Vanguard" Memorial.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_96" id="Page_96">[96]</a></span></p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="VICTORIOUS2"></a><img src="images/i_117.jpg" width="544" height="367" alt="" />
+<div class="caption"><span class="smcap">Making for Home.</span><br />
+<span class="smallc">(H.M.S. "Victorious" in the Irish Sea on the way to Devonport, March, 1920.)</span></div>
+</div>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_97" id="Page_97">[97]</a></span></p>
+
+
+
+
+<h2><a name="PART_IV" id="PART_IV"></a>PART IV<br />
+THE GERMAN SHIPS AT SCAPA FLOW</h2>
+
+
+<div class="figcenter" style="width: 546px;">
+<a id="SCUTTLING"></a><img src="images/i_118.jpg" width="546" height="379" alt="" />
+<div class="caption"><span class="smcap">The Scuttling of the German Ships.</span></div>
+</div>
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_98" id="Page_98">[98]</a></span></p>
+
+
+
+<h2><a name="THE_GERMAN_SHIPS_AT_SCAPA_FLOW" id="THE_GERMAN_SHIPS_AT_SCAPA_FLOW"></a>THE GERMAN SHIPS AT SCAPA FLOW</h2>
+
+<div>
+  <img class="drop-cap" src="images/i_120.png" width="75" height="80" alt="A" />
+</div>
+
+<p class="drop-cap"><span class="smcap">Although</span> the association of the Grand Fleet with Scapa Flow
+would of itself have given that hitherto almost unknown spot a
+peculiar and honourable significance in our naval history, it was
+undoubtedly the choice of Scapa as the place of internment of the
+German ships and their subsequent dramatic sinking, which made
+Scapa a familiar name, not only in this country but all over the world. The
+photographs which follow show the various phases of the German "occupation"
+of Scapa from the time that the vessels arrived for internment to the final scenes
+in March, 1920, when those vessels which had been salved after the scuttling
+in June, 1919, were finally towed south for distribution amongst the Allied
+Powers.</p>
+
+<p>The first phase took place on 23rd November, 1918, and the succeeding days,
+when the surrendered ships were escorted from Rosyth to Scapa and anchored
+in the Flow, prior to taking up their permanent billets in Gutter Sound (previously
+the collier anchorage of the Fleet; see map on <a href="#ANCHORAGE">p. 110</a>).</p>
+
+<p>The ships arrived in the following order:</p>
+
+
+<div class="center">
+<table class="ships" summary="German Vessels">
+<tr class="bb bt"><th class="br"><i>Date.</i></th><th class="br"><i>German Vessels.</i></th><th><i>British Escort.</i></th></tr>
+<tr><td class="tpl br">Saturday, 23/11/18</td><td class="tpl br">20 Torpedo-Boat Destroyers.</td><td class="tpl">Torpedo-Boat Destroyers.</td></tr>
+<tr><td class="tpl br">Sunday, 24/11/18</td><td class="tpl br">20 Torpedo-Boat Destroyers.</td><td class="tpl">Torpedo-Boat Destroyers.</td></tr>
+<tr><td class="tpl br">Monday, 25/11/18</td><td class="tpl br">5 Battle Cruisers, 10 Torpedo-Boat Destroyers.</td><td class="tpl">"Lion" and First Battle Cruiser Squadron and 10 Torpedo-Boat Destroyers.</td></tr>
+<tr><td class="tpl br">Tuesday, 26/11/18</td><td class="tpl br">5 Battleships and 4 Light Cruisers.</td><td class="tpl">5 Ships First Battle Squadron and Second Light Cruiser Squadron.</td></tr>
+<tr class="bb"><td class="tpl br">Wednesday, 27/11/18</td><td class="tpl br">4 Battleships, 3 Light Cruisers.</td><td class="tpl">4 Ships First Battle Squadron and Third Light Cruiser Squadron.</td></tr>
+</table></div>
+
+
+
+<p>The German ships carried full navigating parties, and came north under their
+own steam. The dense clouds of smoke which will be observed in the photographs
+on <a href="#SEYDLITZ">pp. 102</a> and <a href="#MOLTKE">103</a> testify to the poor quality of the coal with which they were
+supplied. The crews were later reduced to care and maintenance parties only.</p>
+
+<p><span class="pagenum"><a name="Page_100" id="Page_100">[100]</a></span></p>
+
+<div class="figcenter" style="width: 547px;">
+<a id="LION"></a><img src="images/i_121a.jpg" width="547" height="265" alt="" />
+<div class="captionr">J. F. V. Guise.</div>
+<div class="caption"><span class="smcap">H.M.S. "Lion" entering Hoxa Boom, Scapa Flow, at Head of German Battle
+Cruisers, 25th November, 1918.</span></div>
+</div>
+
+<div class="figcenter" style="width: 541px;">
+<a id="REPULSE"></a><img src="images/i_121b.jpg" width="541" height="293" alt="" />
+<div class="caption"><span class="smcap">H.M.S. "Repulse," "Renown," "Princess Royal," and "Tiger" Escorting German
+Battle Cruisers through Hoxa Boom, 25th November, 1918.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_101" id="Page_101">[101]</a></span></p>
+
+<p>The complete list of capital ships (apart from destroyers) interned at Scapa
+is shown below. The battleships "K&ouml;nig" and "Baden," and cruiser "Dresden,"
+were later arrivals.</p>
+
+
+<div class="center">
+<table class="ships" summary="Capital Ships">
+<tr><th class="light" colspan="2">BATTLESHIPS</th></tr>
+<tr class="trsm"><td class="tpr br">Bayern</td><td class="tpl">Kronprinz Wilhelm</td></tr>
+<tr class="trsm"><td class="tpr br">Markgraf</td><td class="tpl">Friedrich der Grosse</td></tr>
+<tr class="trsm"><td class="tpr br">K&ouml;nig</td><td class="tpl">K&ouml;nig Albert</td></tr>
+<tr class="trsm"><td class="tpr br">Kaiserin</td><td class="tpl">Prinzregent Luitpold</td></tr>
+<tr class="trsm"><td class="tpr br">Kaiser</td><td class="tpl">Baden</td></tr>
+<tr class="trsm"><td class="tpr br">Grosser Kurf&uuml;rst</td><td class="tpl"></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th class="tdc light" colspan="2">BATTLE CRUISERS</th></tr>
+<tr class="trsm"><td class="tpr br">Hindenburg</td><td class="tpl">Von der Tann</td></tr>
+<tr class="trsm"><td class="tpr br">Derfflinger</td><td class="tpl">Moltke</td></tr>
+<tr class="trsm"><td class="tpr br">Seydlitz</td><td class="tpl">&nbsp;</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><th class="tdc light" colspan="2">LIGHT CRUISERS</th></tr>
+<tr class="trsm"><td class="tpr br">Brummer</td><td class="tpl">Emden</td></tr>
+<tr class="trsm"><td class="tpr br">Bremse</td><td class="tpl">Karlsruhe</td></tr>
+<tr class="trsm"><td class="tpr br">Dresden</td><td class="tpl">Nurnberg</td></tr>
+<tr class="trsm"><td class="tpr br">K&ouml;ln</td><td class="tpl">Frankfurt</td></tr>
+</table></div>
+
+<p>During the period of their internment, communication between the German
+ships and our own Fleet was restricted to a minimum, and no one from our own
+ships was allowed on board the interned vessels unless on duty of an urgent nature.
+The Germans were required to victual and store their own ships from Germany,
+coal and water only being supplied locally. As German warships were not constructed
+for living aboard for long periods (the sailors being mostly accommodated
+in barracks when in harbour), the crews at Scapa must have had a rather unenviable
+time of it, though there was a certain element of poetic justice in interning
+them in the region where for so long our own Fleet had kept its lonely vigil. As
+one of their officers remarked in writing home and describing the bleakness and
+desolation of Scapa: "If the English have stood this for four years, they deserve
+to have won the war."</p>
+
+<p>The German ships were patrolled by a number of drifters&mdash;a somewhat
+ignominious guard for the much-vaunted German Fleet.</p>
+
+<p>The Germans' love of music was in evidence even at Scapa, and it was somewhat
+strange and at times rather pathetic to hear the unfamiliar strains of "Die
+Wacht am Rhein" and "Die Lorelei" rising from the German ships, some of
+which still retained their bands.</p>
+
+<div class="figcenter" style="width: 410px;">
+<a id="SEYDLITZ"></a><img src="images/i_123a.jpg" width="410" height="250" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Seydlitz" entering Hoxa Boom, 25th November, 1918.</span></div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="VONDERTANN"></a><img src="images/i_123b.jpg" width="544" height="334" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Von der Tann" entering Hoxa Boom, 25th November, 1918.</span></div>
+</div>
+
+<div class="figcenter" style="width: 535px;">
+<a id="MOLTKE"></a><img src="images/i_124a.jpg" width="535" height="348" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Moltke" entering Hoxa Boom, 25th November, 1918.</span></div>
+</div>
+
+<div class="figcenter" style="width: 535px;">
+<a id="INTERNED"></a><img src="images/i_124b.jpg" width="535" height="298" alt="" />
+<div class="caption"><span class="smcap">The Interned German Ships at Scapa.</span></div>
+</div>
+
+<p>The anniversary of Jutland (31st May) was not forgotten, and most of the<span class="pagenum"><a name="Page_102" id="Page_102">[102]</a></span>
+ships displayed bunting, on the pretext of drying their flags, as they were not
+allowed to fly their ensigns after Beatty's signal on the evening of the surrender
+at Rosyth. One of the ships prominently displayed a notice in English: "To-day
+we celebrate the German victory of the Battle of Jutland."</p>
+
+<div class="figcenter" style="width: 544px;">
+<a id="SEYDLITZ2"></a><img src="images/i_125.jpg" width="544" height="328" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Seydlitz."</span><br />
+<span class="smallc">(One of the ships which bombarded Scarborough.)</span></div>
+</div>
+
+<p>It was somewhat difficult, owing to the isolation of the German ships, to form
+an idea of the discipline which prevailed on board. It was evident that on most
+of the ships there were representatives of the Soldiers' and Sailors' Councils, as the
+members could be readily distinguished by their white armlets. Indeed, there
+is probably some truth in the report that when the German ships surrendered,
+the crews confidently expected that our ships, the crews of which they believed
+to be on the verge of mutiny and Bolshevism, would make common cause with
+them, and they must have been considerably surprised when Admiral Beatty
+refused to negotiate with the Council representatives. There were undoubtedly
+disturbances on some of the German ships whilst they were at Scapa, and it
+appears to have been due to a rather serious case of insubordination that Admiral<span class="pagenum"><a name="Page_105" id="Page_105">[105]</a></span>
+Von Reuter, who was in command of the German ships, changed his flagship from
+the "Friedrich der Grosse" to the "Emden."</p>
+
+<p>On the other hand, the simultaneous sinking of the German ships on 21st June,
+1919, proved conclusively that a certain discipline still prevailed, for the scuttling
+was undoubtedly organised and carried out with (from the German point of view)
+very commendable precision and thoroughness.</p>
+
+<p>The scuttling of the German ships on 21st June, 1919, has already been briefly
+referred to in the earlier part of the book, but as the writer was privileged to be
+an eyewitness of the events of that afternoon, the reader will perhaps pardon the
+intrusion of the personal element in a more detailed description of the sinkings.</p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="MOLTKE2"></a><img src="images/i_126.jpg" width="539" height="261" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Moltke" at Scapa Flow.</span></div>
+</div>
+
+<div class="figcenter" style="width: 593px;">
+<a id="DERRFLINGER2"></a><img src="images/i_127a.jpg" width="593" height="246" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Derfflinger" at Scapa Flow.</span></div>
+</div>
+
+<div class="figcenter" style="width: 597px;">
+<a id="HINDENBURG"></a><img src="images/i_127b.jpg" width="597" height="319" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Hindenburg" at Scapa Flow.</span></div>
+</div>
+
+<p>It was at five minutes past noon that the signalmen reported that the German
+ships had hoisted ensigns and burgees. The excitement which this announcement
+produced was intensified a short time later when it became apparent that the
+ships were sinking, and that the crews were taking to the boats. Lunch was
+completely forgotten, and arrangements were hurriedly made to get all available
+small craft to the ships to ascertain if anything could be done to save any of them.
+I obtained permission from the Admiral to accompany him on an inspection of
+some of the nearer destroyers, from which it was ascertained that there was
+no possibility of saving any of the ships other than by beaching them, as the sea-cocks
+<span class="pagenum"><a name="Page_106" id="Page_106">[106]</a></span>
+had not been only opened but the valves had been destroyed. Our picket-boat
+happened to come alongside at this stage, so I jumped aboard and proceeded
+north up Gutter Sound, where the larger vessels were anchored. Our instructions
+were to board any German vessels which were still afloat, haul down their ensigns,
+and to take such steps as were necessary to save life and to direct any boats or
+Carley floats of Germans to the Flagship. Our picket-boat followed the course
+shown in the sketch map on <a href="#ANCHORAGE">p. 110</a>, and we reached the "Seydlitz" at about one
+o'clock, boarded her and hauled down her colours, and at the same time opened
+the windlass with a view to parting it and allowing the vessel to drift ashore, but
+unfortunately it brought up at the slip and held. The "Seydlitz" was then
+beginning to list heavily, so we left her and next boarded the "Hindenburg,"
+which was also beginning to list heavily to port.</p>
+
+<div class="figcenter" style="width: 588px;">
+<a id="FRIEDRICH"></a><img src="images/i_128a.jpg" width="588" height="230" alt="" />
+<div class="caption"><span class="smcap">German Battleship "Friedrich der Grosse."</span><br />
+<span class="smallc">(Admiral von Reuter's Flagship.)</span></div>
+</div>
+
+<div class="figcenter" style="width: 592px;">
+<a id="KAISERIN"></a><img src="images/i_128b.jpg" width="592" height="323" alt="" />
+<div class="caption"><span class="smcap">German Battleship "Kaiserin."</span></div>
+</div>
+
+<div class="figcenter" style="width: 690px;">
+<a id="KOLN"></a><img src="images/i_129a.jpg" width="690" height="258" alt="" />
+<div class="caption"><span class="smcap">German Light Cruiser "K&ouml;ln."</span></div>
+</div>
+
+<div class="figcenter" style="width: 694px;">
+<a id="DESTROYERS"></a><img src="images/i_129b.jpg" width="694" height="158" alt="" />
+<div class="caption"><span class="smcap">German Destroyers at Lyness, with Battleships in the Distance.</span></div>
+</div>
+
+<p>We then proceeded past several of the battleships, which were seen to be
+rapidly settling down. Whilst abreast of "K&ouml;nig Albert," our picket-boat was
+hailed from the deck of a trawler by the German Admiral, Von Reuter, who asked
+us to save the crew of the "Bayern," who were in the water. Two drifters which
+were near by were accordingly ordered close to the "Bayern" for this purpose,
+and we proceeded in the same direction, when the photographs on <a href="#BAYERN">pp. 112</a> and <a href="#BAYERN2">113</a>
+were taken. Immediately afterwards the ship turned over to port, bottom up,
+and sank, whilst the crews of the boats cheered loudly and waved their caps.</p>
+
+<p>We next headed for the "Derfflinger," on the way sending back several
+boats full of Germans to the "Victorious." The "Derfflinger" foundered a
+few minutes after taking the photograph on <a href="#DERFLINGER">p. 24</a>. On the way back we
+passed the "Hindenburg," which had then settled on to an even keel with her
+masts and funnels showing, whilst the "Seydlitz" was then resting in shallow
+water on her starboard side, with her decks nearly vertical, and her port propeller
+just showing above the water.</p>
+
+<p>Meantime a considerable number of the destroyers had been beached by
+tugs and other small craft, in addition to three cruisers, whilst the "Baden," the
+only battleship saved, was still afloat, though very low in the water.</p>
+
+<p>On arrival on the "Victorious" we found the ship crowded with Germans,
+who, after examination, were sent to the Flagship, H.M.S. "Revenge"&mdash;which had
+by this time returned to the Flow from the Pentland, where the 1st Battle Squadron
+had been exercising&mdash;from which ship they were sent south.</p>
+
+<p><span class="pagenum"><a name="Page_110" id="Page_110">[110]</a></span></p>
+
+<div class="figcenter" style="width: 505px;">
+<a id="ANCHORAGE"></a><img src="images/i_131.jpg" width="505" height="723" alt="" />
+<div class="caption"><span class="smcap">Plan of the Anchorage of German Ships at Scapa Flow</span>.</div>
+</div>
+
+<p><span class="pagenum"><a name="Page_111" id="Page_111">[111]</a></span></p>
+
+<p>A large amount of salvage work ensued on the vessels which had been beached,
+most of them being pumped out and docked in the Floating Dock, although it
+was not found possible to get some of the destroyers off, and these still remain as
+a memento of that eventful day.</p>
+
+<p>All the salved ex-German ships have now been towed south, and have been
+apportioned amongst the Allied Powers. It is interesting to note that the
+"Baden" and "Nurnberg," of which several photographs are shown in the
+following pages, have been allotted to Great Britain, whilst the "Emden" goes
+to France, and the "Frankfurt" to U.S.A. It appears that most of the salved
+vessels are to be broken up, thus finally disposing of the remnants of the once
+great German Fleet.</p>
+
+<div class="figcenter" style="width: 442px;">
+<a id="FRENCH"></a><img src="images/i_132.jpg" width="442" height="328" alt="" />
+<div class="caption"><span class="smcap">A Party of French Officers visiting the German Ships.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_112" id="Page_112">[112]</a></span></p>
+
+<div class="figcenter" style="width: 688px;">
+<a id="BAYERN"></a><img src="images/i_133.jpg" width="688" height="445" alt="" />
+<div class="caption"><span class="smcap">German Battleship "Bayern" Sinking by the Stern, 2 p.m., 21st June, 1919.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_113" id="Page_113">[113]</a></span></p>
+
+<div class="figcenter" style="width: 494px;">
+<a id="BAYERN2"></a><img src="images/i_134.jpg" width="494" height="662" alt="" />
+<div class="caption"><span class="smcap">The Final Plunge of the "Bayern."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_114" id="Page_114">[114]</a></span></p>
+
+<div class="figcenter" style="width: 691px;">
+<a id="FARA"></a><img src="images/i_135.jpg" width="691" height="382" alt="" />
+<div class="caption"><span class="smcap">German Destroyers sinking or beached off the Island of Fara.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_115" id="Page_115">[115]</a></span></p>
+
+<div class="figcenter" style="width: 735px;">
+<a id="GERMANBOATS"></a><img src="images/i_136.jpg" width="735" height="492" alt="" />
+<div class="caption"><span class="smcap">German Sailors taking to the Boats.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_116" id="Page_116">[116]</a></span></p>
+
+<div class="figcenter" style="width: 690px;">
+<a id="BOARDINGPARTY"></a><img src="images/i_137.jpg" width="690" height="451" alt="" />
+<div class="caption"><span class="smcap">British Boarding Party alongside Sinking German Destroyer.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_117" id="Page_117">[117]</a></span></p>
+
+<div class="figcenter" style="width: 737px;">
+<a id="GENERALVIEW"></a><img src="images/i_138.jpg" width="737" height="474" alt="" />
+<div class="caption"><span class="smcap">General View showing German Destroyers sinking on the Right and
+Battleships in the Distance.<br />
+At 3.30 p.m., 21st June, 1919.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_118" id="Page_118">[118]</a></span></p>
+
+<div class="figcenter" style="width: 738px;">
+<a id="HINDENBURG2"></a><img src="images/i_139.jpg" width="738" height="493" alt="" />
+<div class="caption"><span class="smcap">German Battle Cruiser "Hindenburg" as she now rests at Scapa.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_119" id="Page_119">[119]</a></span></p>
+
+<div class="figcenter" style="width: 736px;">
+<a id="RAMNA"></a><img src="images/i_140.jpg" width="736" height="466" alt="" />
+<div class="caption"><span class="smcap">Whaler "Ramna" stranded on German Battle Cruiser "Moltke" 23rd June, 1919, taken just
+before "Ramna" Refloated.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_120" id="Page_120">[120]</a></span></p>
+
+<div class="figcenter" style="width: 736px;">
+<a id="NURNBERG"></a><img src="images/i_141.jpg" width="736" height="487" alt="" />
+<div class="caption"><span class="smcap">German Cruiser "Nurnberg" immediately after being refloated at 2 p.m. on 3rd July, 1919.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_121" id="Page_121">[121]</a></span></p>
+
+<div class="figcenter" style="width: 738px;">
+<a id="BADEN"></a><img src="images/i_142.jpg" width="738" height="440" alt="" />
+<div class="caption"><span class="smcap">Salvage Operations on Battleship "Baden" and Cruiser "Frankfurt" beached at Smoogroo.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_122" id="Page_122">[122]</a></span></p>
+
+<div class="figcenter" style="width: 695px;">
+<a id="BADEN2"></a><img src="images/i_143.jpg" width="695" height="493" alt="" />
+<div class="caption"><span class="smcap">Salvage Work on the "Baden."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_123" id="Page_123">[123]</a></span></p>
+
+<div class="figcenter" style="width: 737px;">
+<a id="FRANKFURT"></a><img src="images/i_144.jpg" width="737" height="484" alt="" />
+<div class="caption"><span class="smcap">Pumping out the "Frankfurt."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_124" id="Page_124">[124]</a></span></p>
+
+<div class="figcenter" style="width: 538px;">
+<a id="BREMSE"></a><img src="images/i_145a.jpg" width="538" height="288" alt="" />
+<div class="caption"><span class="smcap">Cruiser "Bremse," which capsized whilst being beached.</span></div>
+</div>
+
+<div class="figcenter" style="width: 541px;">
+<a id="SEYDLITZ3"></a><img src="images/i_145b.jpg" width="541" height="295" alt="" />
+<div class="caption"><span class="smcap">Battle Cruiser "Seydlitz," lying on her Starboard Side in Shallow Water.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_125" id="Page_125">[125]</a></span></p>
+
+<div class="figleft" style="width: 293px;">
+<a id="UNIONJACK"></a><img src="images/i_146a.jpg" width="293" height="194" alt="" />
+<div class="caption"><span class="smcap">Hoisting the Union Jack on a sinking
+German Destroyer.</span></div>
+</div>
+
+<div class="figright" style="width: 296px;">
+<a id="SEYDLITZ4"></a><img src="images/i_146b.jpg" width="296" height="193" alt="" />
+<div class="caption"><span class="smcap">On the "Seydlitz."</span></div>
+</div>
+
+<div class="figcenter" style="width: 736px;">
+<a id="INVERGORDON"></a><img src="images/i_146c.jpg" width="736" height="193" alt="" />
+<div class="caption"><span class="smcap">"Baden" being towed South to Invergordon.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_126" id="Page_126">[126]</a></span></p>
+
+<div class="figcenter" style="width: 684px;">
+<a id="SALVING"></a><img src="images/i_147.jpg" width="684" height="456" alt="" />
+<div class="caption"><span class="smcap">Salving German Destroyer "G 102."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_127" id="Page_127">[127]</a></span></p>
+
+<div class="figcenter" style="width: 517px;">
+<a id="SALVAGEPARTY"></a><img src="images/i_148.jpg" width="517" height="351" alt="" />
+<div class="caption"><span class="smcap">Salvage Party working on a German Destroyer.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_128" id="Page_128">[128]</a></span></p>
+
+<div class="figcenter" style="width: 693px;">
+<a id="SALVED"></a><img src="images/i_149.jpg" width="693" height="375" alt="" />
+<div class="caption"><span class="smcap">View showing salved ex-German Cruisers and Destroyers at Long Hope, October, 1919.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_129" id="Page_129">[129]</a></span></p>
+
+<div class="figcenter" style="width: 684px;">
+<a id="SALVED2"></a><img src="images/i_150.jpg" width="684" height="479" alt="" />
+<div class="caption"><span class="smcap">The Salved German cruisers "Nurnberg" and "Emden" in Long Hope Bay.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_130" id="Page_130">[130]</a></span></p>
+
+<div class="figcenter" style="width: 393px;">
+<a id="FRANKFURT2"></a><img src="images/i_151a.jpg" width="393" height="455" alt="" />
+<div class="caption"><span class="smcap">View Looking Aft from After-Control Top of "Frankfurt."</span></div>
+</div>
+
+<div class="figcenter" style="width: 590px;">
+<a id="VIEWFORWARD"></a><img src="images/i_151b.jpg" width="590" height="279" alt="" />
+<div class="caption"><span class="smcap">View Looking Forward from the Same Position.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_131" id="Page_131">[131]</a></span></p>
+
+<div class="figcenter" style="width: 542px;">
+<a id="EXPANSIONRING"></a><img src="images/i_152a.jpg" width="542" height="390" alt="" />
+<div class="caption"><span class="smcap">Expansion Ring Marking on 6-inch Gun "Nurnberg."</span></div>
+</div>
+
+<div class="figleft" style="width: 358px;">
+<a id="HUMOROUS"></a><img src="images/i_152b.jpg" width="358" height="257" alt="" />
+<div class="caption"><span class="smcap">A Humorous Effort on the Part of
+One of Our Sailors.</span></div>
+</div>
+
+<div class="figright" style="width: 224px;">
+<a id="PROPELLER"></a><img src="images/i_152c.jpg" width="224" height="258" alt="" />
+<div class="caption"><span class="smcap">The Propeller Blade of the
+"Seydlitz."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_132" id="Page_132">[132]</a></span></p>
+
+<div class="figcenter" style="width: 549px;">
+<a id="RANGEFINDER"></a><img src="images/i_153a.jpg" width="549" height="364" alt="" />
+<div class="caption"><span class="smcap">Range-Finder and Searchlight Platform, "Nurnberg."</span></div>
+</div>
+
+<div class="figcenter" style="width: 544px;">
+<a id="MM88"></a><img src="images/i_153b.jpg" width="544" height="271" alt="" />
+<div class="caption"><span class="smcap">88-Mm. Guns, "Nurnberg."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_133" id="Page_133">[133]</a></span></p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="INCH6"></a><img src="images/i_154a.jpg" width="539" height="341" alt="" />
+<div class="caption"><span class="smcap">6-Inch Gun on "Nurnberg" After-Turret.</span></div>
+</div>
+
+<div class="figleft" style="width: 291px;">
+<a id="INCH59"></a><img src="images/i_154b.jpg" width="291" height="333" alt="" />
+<div class="caption"><span class="smcap">5&middot;9-Inch After-Breech, "Nurnberg."</span></div>
+</div>
+
+<div class="figright" style="width: 243px;">
+<a id="SEARCHLIGHT"></a><img src="images/i_154c.jpg" width="243" height="337" alt="" />
+<div class="caption"><span class="smcap">Searchlight Control Platform,
+"Frankfurt."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_134" id="Page_134">[134]</a></span></p>
+
+<div class="figcenter" style="width: 546px;">
+<a id="CM105"></a><img src="images/i_155.jpg" width="546" height="376" alt="" />
+<div class="caption"><span class="smcap">10&middot;5-Cm. Gun on a German Destroyer.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_135" id="Page_135">[135]</a></span></p>
+
+<div class="figcenter" style="width: 539px;">
+<a id="TORPEDO"></a><img src="images/i_156.jpg" width="539" height="356" alt="" />
+<div class="caption"><span class="smcap">Torpedo Tubes on a Destroyer.</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_136" id="Page_136">[136]</a></span></p>
+
+<div class="figcenter" style="width: 543px;">
+<a id="ENGINEROOM"></a><img src="images/i_157.jpg" width="543" height="404" alt="" />
+<div class="caption"><span class="smcap">Engine-Room Control Board, "Emden."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_137" id="Page_137">[137]</a></span></p>
+
+<div class="figcenter" style="width: 536px;">
+<a id="CONNING"></a><img src="images/i_158.jpg" width="536" height="399" alt="" />
+<div class="caption"><span class="smcap">Lower Conning Tower, "Emden."</span></div>
+</div>
+
+<p><span class="pagenum"><a name="Page_138" id="Page_138">[138]</a></span></p>
+
+<div class="figcenter" style="width: 687px;">
+<a id="ROSYTH"></a><img src="images/i_159.jpg" width="687" height="417" alt="" />
+<div class="caption"><span class="smcap">German Destroyer being towed South to Rosyth, March, 1920.</span></div>
+</div>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_139" id="Page_139">[139]</a></span></p>
+
+
+
+
+<h2><a name="EPILOGUE" id="EPILOGUE"></a>EPILOGUE.<br />
+<span class="smallc">MARCH, 1921.</span></h2>
+
+<p><span class="pagenum"><a name="Page_140" id="Page_140">[140]</a></span></p>
+
+<div class="figcenter" style="width: 542px;">
+<a id="BLOWINGUP"></a><img src="images/i_161a.jpg" width="542" height="223" alt="" />
+<div class="captionr">R. J. Towers.</div>
+<div class="caption"><span class="smcap">Blowing up the Minefields.</span><br />
+<span class="smallc">Group of mines exploded in February, 1919, by the Quoyness Mining Station, Flotta Island.</span></div>
+</div>
+
+<div class="figcenter" style="width: 541px;">
+<a id="CLOSERVIEW2"></a><img src="images/i_161b.jpg" width="541" height="298" alt="" />
+<div class="captionr">R. J. Towers.</div>
+<div class="caption"><span class="smcap">Closer View of a Mine Explosion.</span><br />
+<span class="smallc">Photograph taken a mile away with a telecentric lens.</span></div>
+</div>
+
+<hr class="chap" />
+
+<p><span class="pagenum"><a name="Page_141" id="Page_141">[141]</a></span></p>
+
+
+
+
+<p class="largec">EPILOGUE</p>
+
+
+<div>
+  <img class="drop-cap" src="images/i_120.png" width="75" height="80" alt="A" />
+</div>
+
+<p class="drop-cap"><span class="smcap">A few</span> notes remain to be added to the preceding pages to
+complete the story of Scapa to the present time. The war
+necessarily left its aftermath at Scapa, as elsewhere, and although
+much of the "clearing up" has been accomplished, there will
+remain for many years visible traces of the "naval occupation"
+of the Orkneys.</p>
+
+<p>The signing of the Armistice in November, 1918, entailed only a cessation of
+active hostilities, and it was not until the summer of 1919 that the reversion of
+the Base from a war to a peace footing really began. One of the earliest and most
+important operations to be undertaken after the Armistice was the clearance of
+the North Sea mine barrage between the Orkneys and Norway, which has already
+been briefly referred to. This entailed a sweep over an area of 6,000 square
+miles, and the destruction of over 70,000 mines. The American Minesweeping
+Detachment, to which the major portion of this task was allotted, arrived in
+Kirkwall in April, 1919, and by the end of September of that year their task
+had been successfully accomplished, and the northern gateway was open once
+more to the mercantile traffic of the world.</p>
+
+<p>The mines which had been laid in the smaller areas around the entrances to
+the Flow were exploded simultaneously in sections&mdash;a very much simpler task,
+as these were connected electrically to shore stations. The photographs on
+<a href="#BLOWINGUP">p. 140</a> give some idea of the force of the explosions, which were audible for
+miles around. It is of interest to note that the buoy shown on the left of the
+photograph on the lower part of <a href="#CLOSERVIEW2">p. 140</a> marks the resting-place of the German
+submarine which was sunk in this minefield a few days before the Armistice.</p>
+
+<p>The removal of the booms and the release of the boom defence drifters and
+trawlers was completed before the end of 1919. The fishermen who formed the
+crews of these vessels, incidentally, deserve to be recognised for their work during
+the war, the monotony and isolation of which made their task one of the least
+enviable at the Base.</p>
+
+<p><span class="pagenum"><a name="Page_142" id="Page_142">[142]</a></span></p>
+
+
+<div class="figcenter" style="width: 543px;">
+<a id="AORANGI"></a><img src="images/i_163a.jpg" width="543" height="297" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption"><span class="smcap">Salvage Operation on S.S. "Aorangi" in Holm Sound.</span></div>
+<div class="caption"> 1</div>
+</div>
+
+<div class="figcenter" style="width: 543px;">
+<a id="AORANGI2"></a><img src="images/i_163b.jpg" width="543" height="260" alt="" />
+<div class="captionr">T. Kent.</div>
+<div class="caption">2</div>
+</div>
+
+<p><span class="pagenum"><a name="Page_143" id="Page_143">[143]</a></span></p>
+
+<p>The raising of the barrier at Clestron (see <a href="#CLESTRON">p. 39</a>) proved a more formidable
+operation. The ice-breaker "Sviagator," early in 1920, made the unique experiment
+of crushing some of the hurdles to a sufficient depth to allow vessels of medium
+draught to pass over with safety, but it was not until the summer of 1920 that the
+removal of the hurdles was undertaken and completed by a salvage company, and
+the rails shipped south.</p>
+
+<p>The raising of the "block" ships, which had been sunk in some of the narrow
+channels leading into the Flow, appears to have presented almost insuperable
+difficulties, mainly owing to tidal currents, and there does not seem to be much
+likelihood that the vessels in Burra and Water Sounds will ever be raised. In
+Holm Sound, however, one of the sunken ships, S.S. "Aorangi," was successfully
+salved by the East Coast Wrecking Company on 8th September, 1920, and beached
+near the churchyard at Holm.</p>
+
+<p>Of the temporary shore establishments at Scapa very little now remains, and
+the buildings which are still standing have nearly all been converted to meet peace-time
+requirements. The "miniature base" at Lyness is in the hands of caretakers,
+and the completion of the wharf (on which &pound;300,000 has been spent) has been
+stopped, whilst the control of the Naval Area, which since February, 1920, had
+been in the hands of Captain Alan G. Bruce, R.N., C.B., D.S.O., was on 1st December,
+1920, removed to Invergordon.</p>
+
+<p>The air stations at Houton, Smoogro, Caldale, and Stenness have been closed
+down or removed, whilst the seaplane station at Scapa has been acquired by the
+Orkney County Council as a tuberculosis hospital. Nearly all the shore batteries
+have been dismantled, the guns removed, the searchlights withdrawn, and the
+huts sold or demolished. Only at Hoy (Stromness) are the batteries intact, but
+these are in charge of a civilian caretaker. The Royal Marine Station at Carness
+(near Kirkwall) remains, but as a smallpox hospital under the Orkney County
+Council.</p>
+
+<p>Various schemes have been under consideration for the removal of the sunken
+German ships, but at present they still remain as they sank on the memorable
+21st June, 1919&mdash;a constant source of danger to ships passing through the narrow
+channels where they lie. It remains to be seen whether steps will eventually be
+taken to remove the more dangerous of these vessels, or whether they will remain
+as a permanent memorial of one of the most dramatic episodes of naval history.</p>
+
+<p><span class="pagenum"><a name="Page_144" id="Page_144">[144]</a></span></p>
+
+<div class="figcenter" style="width: 395px;">
+<a id="SUNSETHOY"></a><img src="images/i_165.jpg" width="395" height="297" alt="" />
+<div class="caption"><span class="smcap">Sunset over the Hills of Hoy.</span><br />
+<span class="smallc">(Mast of sunken German destroyer showing in foreground.)</span></div>
+</div>
+
+<hr class="chap" />
+<p class="center p6 small">PRINTED IN GREAT BRITAIN BY BILLING AND SONS, LTD., GUILDFORD AND ESHER</p>
+
+<div class="transnote">
+<h2>Transcriber's Notes</h2>
+
+<p>Some place names have been found with alternative spellings. These alternatives may be legitimate and
+have been left as found.<br />
+Smoogroo, Smoogro<br />
+Burra, Burray<br />
+and<br />
+Stennis, Stenness.</p>
+
+<p>The cruiser Nurnberg should be N&uuml;rnberg. This spelling has been left as found.</p>
+
+<p>Page numbers are not continuous, since illustrations have been moved to paragraph breaks, leaving empty pages.</p>
+
+</div>
+
+</body>
+</html>
